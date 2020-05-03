@@ -31,7 +31,9 @@ and copy-paste that into the `<article></article>` part of `index.html`.
 - [ ] Translate the `<head>`, sidebars, & footer of `index.html` (200 words)
 
 - [ ] Translate the images in `/pics` (800 words)
+
 If you don't have image-editing software, ask for help on the Github Issue!
+
 
 - [Χ] Translate `sim/index.html` (100 words)
 
