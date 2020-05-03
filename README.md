@@ -32,10 +32,7 @@ and copy-paste that into the `<article></article>` part of `index.html`.
 
 - [ ] Translate the images in `/pics` (800 words)
 
-If you don't have image-editing software, ask for help on the Github Issue!
-
-
-- [Χ] Translate `sim/index.html` (100 words)
+- [X] Translate `sim/index.html` (100 words)
 
 - [ ] Translate the thumbnail `sharing/thumbnail.png`
 
