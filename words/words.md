@@ -2,43 +2,43 @@
     <div>
     	<iframe id="splash" width="960" height="480" src="banners/splash.html"></iframe>
         <div style="top: 70px;font-size: 75px;font-weight: bold;">
-        	What Happens Next?
+        	Τι συμβαίνει μετά;
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			COVID-19 Futures, Explained With Playable Simulations
+			Το μέλλον του COVID-19, Επεξήγη μέσα από διαδραστικές προσομοιώσεις
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
-				🕐 30 min play/read
+				🕐 30 λεπτά παιχνίδι/διάβασμα
 				&nbsp;&middot;&nbsp;
 			</b>
 			by
 			<a href="https://scholar.google.com/citations?user=_wHMGkUAAAAJ&amp;hl=en">Marcel Salathé</a>
-			(epidemiologist)
+			(επιδημιολόγος)
 			&
 			<a href="https://ncase.me/">Nicky Case</a>
-			(art/code)
+			(σκίτσα/κώδικας)
 		</div>
 	</div>
 </div>
 
-"The only thing to fear is fear itself" was stupid advice.
+"Το μόνο που πρέπει να φοβάσαι είναι ο ίδιος ο φόβος" ήταν ανοήτη συμβουλή.
 
-Sure, don't hoard toilet paper – but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.
+Σίγουρα, don't hoard toilet paper – but if policymakers fear fear itself, they'll downplay real dangers to avoid "mass panic". Fear's not the problem, it's how we *channel* our fear. Fear gives us energy to deal with dangers now, and prepare for dangers later.
 
-Honestly, we (Marcel, epidemiologist + Nicky, art/code) are worried. We bet you are, too! That's why we've channelled our fear into making these **playable simulations**, so that *you* can channel your fear into understanding:
+Ειλικρινά, εμείς (Marcel, epidemiologist + Nicky, σκίτσα/κώδικας) ανησυχούμε. Σίγουρα πιστεύουμε, το ίδιο και εσύ! Γι' αυτό διοχευτέσαμε τον φόβο μας στην δημιουργία αυτών των **διαδραστικών προσομοιώσεων** ώστε *εσύ* να μπορείς να διοχετεύσεις τον φόβο σου για να καταλάβεις :
 
-* **The Last Few Months** (epidemiology 101, SEIR model, R & R<sub>0</sub>)
-* **The Next Few Months** (lockdowns, contact tracing, masks)
-* **The Next Few Years** (loss of immunity? no vaccine?)
+* **Οι Τελευταίοι Μήνες** (επιδημιολογία 101, SEIR μοντέλο, R & R<sub>0</sub>)
+* **Οι Επόμενοι Μήνες** (lockdowns, ανίχνευση επαφών, μάσκες)
+* **Τα επόμενα Χρόνια** (έλλειψη ανοσίας; μη έρευση εμβολίου;)
 
-This guide (published May 1st, 2020. click this footnote!→[^timestamp]) is meant to give you hope *and* fear. To beat COVID-19 **in a way that also protects our mental & financial health**, we need optimism to create plans, and pessimism to create backup plans. As Gladys Bronwyn Stern once said, *“The optimist invents the airplane and the pessimist the parachute.”*
+Αυτός ο οδηγός (δημοσιεύτηκε 1η Μαΐου , 2020. click this footnote!→[^timestamp]) is meant to give you hope *and* fear. Για να νικήσουμε τον COVID-19 **με έναν τρόπο που προστατεύει επίσης την ψυχική και οικονομική μας υγεία**, χρειαζόμαστε αισιοδοξία για να δημιουργήσουμε πλάνα και απαισιοδοξία για να δημιουργήσουμε εφεδρικά σχέδια. Όπως είπε και ο Gladys Bronwyn Stern κάποτε, *“Ο αισιόδοξος εφευρήει το αεροπλάνο και ο απαισιόδοξος το αλεξίπτωτο..”*
 
 [^timestamp]: These footnotes will have sources, links, or bonus commentary. Like this commentary!
     
     **This guide was published on May 1st, 2020.** Many details will become outdated, but we're confident this guide will cover 95% of possible futures, and that Epidemiology 101 will remain forever useful.
 
-So, buckle in: we're about to experience some turbulence.
+Επομένως, προσδεθείτε: θα έχουμε κάποιες αναταράξεις.
 
 <div class="section chapter">
     <div>
@@ -47,23 +47,23 @@ So, buckle in: we're about to experience some turbulence.
     </div>
 </div>
 
-Pilots use flight simulators to learn how not to crash planes.
+Οι πιλότοι χρησιμοποιούν προσομοιωτές για να μάθουν πως να να μην συντρίβουν τα αεροπλάνα.
 
-**Epidemiologists use epidemic simulators to learn how not to crash humanity.**
+**Οι επιδημιολόγοι χρησιμοποιούν επιδημιακούς προσομοιωτές για να μάθουν πως να μην συντρίψουν την ανθρωπότητα.**
 
-So, let's make a very, *very* simple "epidemic flight simulator"! In this simulation, <icon i></icon> Infectious people can turn <icon s></icon> Susceptible people into more <icon i></icon> Infectious people:
+Επομένως, ας κάνουμε εάν πολύ, *πολύ* απλό "επιαδημιακό προσομοιωτή πτήσης"! Σε αυτή την προσομοιώση, <icon i></icon> ά άνθρωποι που έχουν ήδη προσβληθεί μπορούν να μετατρέψουν<icon s></icon> άτομα που είναι πιο ευαίσθητα στην μετάδοση <icon i></icon> σε νοσούντες:
 
 ![](pics/spread.png)
 
-It's estimated that, *at the start* of a COVID-19 outbreak, the virus jumps from an <icon i></icon> to an <icon s></icon> every 4 days, *on average*.[^serial_interval] (remember, there's a lot of variation)
+Εκτιμάται ότι , *στην αρχή* της επιδημίας COVID-19 , ο ιός μεταδίδεται από ένα <icon i></icon> σε ένα <icon s></icon> κάθε 4 ημέρες, *κατά μέσο όρο*.[^serial_interval] (να θυμάστε, υπάρχει μεγάλη μεταβολή)
 
-[^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Disclaimer: Early release articles are not considered as final versions)
+[^serial_interval]: “The mean [serial] interval was 3.96 ημέρες (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Σημείωση: Τα άρθρα πρώιμης έκδοσης δεν θεωρούνται τελικές εκδόσεις)
 
 If we simulate "double every 4 days" *and nothing else*, on a population starting with just 0.001% <icon i></icon>, what happens? 
 
-**Click "Start" to play the simulation! You can re-play it later with different settings:** (technical caveats: [^caveats])
+**Πάτησε "Ξεκίνα" για να ξεκινήσεις την αναπαραγωγή της προσομοίωσης! Μπορείς να την αναπαράγεις ξανά με διαφορετικές ρυθμίσειςYou can re-play it later with different settings:** (technical caveats: [^caveats])
 
-[^caveats]: **Remember: all these simulations are super simplified, for educational purposes.**
+[^caveats]: **Remember: όλες οι προσομοιώσεις είναι πλήρως απλοποιημένες, για εκπαιδευτικούς σκοπούς.**
     
     One simplification: When you tell this simulation "Infect 1 new person every X days", it's actually increasing # of infected by 1/X each day. Same for future settings in these simulations – "Recover every X days" is actually reducing # of infected by 1/X each day.
     
@@ -73,17 +73,17 @@ If we simulate "double every 4 days" *and nothing else*, on a population startin
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
 </div>
 
-This is the **exponential growth curve.** Starts small, then explodes. "Oh it's just a flu" to "Oh right, flus don't create *mass graves in rich cities*". 
+Αυτή είναι η **εκθετική καμπύλη ανάπτυξης.** Ξεκινάει μικρή, έπειτα εκτινάσσεται . Από το "Είναι απλά μία γρίπη" στο "Σωστά, οι γρίπες δεν δημιουργούν *μαζικούς τάφους σε πλούσιες πόλεις*". 
 
 ![](pics/exponential.png)
 
-But, this simulation is wrong. Exponential growth, thankfully, can't go on forever. One thing that stops a virus from spreading is if others *already* have the virus:
+Αλλά, αυτή η προσομοίωση είναι λάθος. Οι εκθετική ανάπτυξη, ευτυχώς, δεν συνεχίζονται για πάντα. Ένα πράγμα που σταματάει την εξάπλωση ενός ιού είναι εάν οι άλλοι έχουν *ήδη* προσβληθεί από τον ιό::
 
 ![](pics/susceptibles.png)
 
 The more <icon i></icon>s there are, the faster <icon s></icon>s become <icon i></icon>s, **but the fewer <icon s></icon>s there are, the *slower* <icon s></icon>s become <icon i></icon>s.**
 
-How's this change the growth of an epidemic? Let's find out:
+Πως αυτό αλλάζει την ανάπτυξη μίας επιδημίας; Ας το ανακαλύψουμε:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-2" width="800" height="540"></iframe>
@@ -690,20 +690,20 @@ Plane's sunk. We've scrambled onto the life rafts. It's time to find dry land.[^
 
 [^dry_land]: Dry land metaphor [from Marc Lipsitch & Yonatan Grad, on STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
 
-Teams of epidemiologists and policymakers ([left](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [right](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), and [multi-partisan](https://ethics.harvard.edu/covid-roadmap)) have come to a consensus on how to beat COVID-19, while protecting our lives *and* liberties.
+Ομάδες επιδημιολόγων και πολιτικών ([left](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [right](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), and [multi-partisan](https://ethics.harvard.edu/covid-roadmap)) έχουν καταλήξει σε συναίνεση για το πώς να νικήσουμε το COVID-19, προστατεύοντας παράλληλα τις ζωές μας *και* τις ελευθερίες.
 
-Here's the rough idea, with some (less-consensus) backup plans:
+Αυτή είναι η γενική ιδέα, με μερικά (λιγότερο συναίνεση) εφεδρικά σχέδια:
 
 ![](pics/plan.png)
 
-So what does this mean for YOU, right now?
+Τι σημαίνει λοιπόν αυτό για ΣΕΝΑ, τώρα;
 
-**For everyone:** Respect the lockdown so we can get out of Phase I asap. Keep washing those hands. Make your own masks. Download a *privacy-protecting* contact tracing app when those are available next month. Stay healthy, physically & mentally! And write your local policymaker to get off their butt and...
+**Για όλους:** Σεβαστείτε το lockdown ώστε να φύγουμε από την Φάση I το συντομότερο δυνατόν. Πλένετε τα χέρια σας. Φτιάξτε τις δικές σας μάσκες. Κατεβάστε μία *σεβομένη-προσωπικά δεδομένα* εφαρμογή ανίχνεσης επαφών όταν αυτές είναι διαθέσιμες τον επόμενο μήνα. Μείνετε υγιείς, σωματικά και πνευματικά! Γράψτε στους πολιτικούς να ξεκολλήσουν από τις καρέκλες τους και ...
 
-**For policymakers:** Make laws to support folks who have to self-isolate/quarantine. Hire more manual contact tracers, *supported* by privacy-protecting contact tracing apps. Direct more funds into the stuff we should be building, like...
+**Για τους πολιτικούς:** Δημιουργήστε νόμους για να υποστηρίξετε ατόμα που πρέπει να απομονωθούν/καραντίνα. Προσλάβετε περισσότερους ανρθώπους για την ανίχνευση επαφών, *υποστηριζόμενοι* από σεβόμενες προσωπικά δεδομένα εφαρμογές ανίχνευσης επαφών. Διαθέστε περισσότερα κεφάλαια στα πράγματα που πρέπει να χτιστούν ...
 
 **For builders:** Build tests. Build ventilators. Build personal protective equipment for hospitals. Build tests. Build masks. Build apps. Build antivirals, prophylactics, and other treatments that aren't vaccines. Build vaccines. Build tests. Build tests. Build tests. Build hope. 
 
 Don't downplay fear to build up hope. Our fear should *team up* with our hope, like the inventors of airplanes & parachutes. Preparing for horrible futures is how we *create* a hopeful future.
 
-The only thing to fear is the idea that the only thing to fear is fear itself.
+Το μόνο πράγμα που πρέπει να φοβάσσαι είναι η ιδεά ότι το μόνο πράγμα που πρέπει να φοβάσαι είναι ο ίδιος ο φόβος.
