@@ -13,7 +13,7 @@ to publish this.**
 
 - [X] Step 1)
 
-Check to see if it's already been translated to your language!
+- [X] Check to see if it's already been translated to your language!
 Go to the main site, look at the left sidebar.
 
 - [X] Step 2)
@@ -52,5 +52,5 @@ Wait for me to get off my lazy butt & accept the Pull Request (within \~72 hours
 
 - [ ] Step 7)
 
-🎉 Party! Your translation should now be linked to from the main page.
+- [ ] 🎉 Party! Your translation should now be linked to from the main page.
 (Remember to close your Github Issue!)
