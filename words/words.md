@@ -346,11 +346,11 @@ This *would* keep cases below ICU capacity! And it's *much* better than an 18-mo
 
 Look, it's nice to draw a line saying "ICU capacity", but there's lots of important things we *can't* simulate here. Like:
 
-**Mental Health:** Loneliness is one of the biggest risk factors for depression, anxiety, and suicide. And it's as associated with an early death as smoking 15 cigarettes a day.[^loneliness]
+**Ψυχική Υγεία:** Loneliness is one of the biggest risk factors for depression, anxiety, and suicide. And it's as associated with an early death as smoking 15 cigarettes a day.[^loneliness]
 
 [^loneliness]: See [Figure 6 from Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Of course, big disclaimer that they found a *correlation*. But unless you want to try randomly assigning people to be lonely for life, observational evidence is all you're gonna get.
 
-**Financial Health:** "What about the economy" sounds like you care more about dollars than lives, but "the economy" isn't just stocks: it's people's ability to provide food & shelter for their loved ones, to invest in their kids' futures, and enjoy arts, foods, videogames – the stuff that makes life worth living. And besides, poverty *itself* has horrible impacts on mental and physical health.
+**Οινομική Υγεία:** "What about the economy" sounds like you care more about dollars than lives, but "the economy" isn't just stocks: it's people's ability to provide food & shelter for their loved ones, to invest in their kids' futures, and enjoy arts, foods, videogames – the stuff that makes life worth living. And besides, poverty *itself* has horrible impacts on mental and physical health.
 
 Not saying we *shouldn't* lock down again! We'll look at "circuit breaker" lockdowns later. Still, it's not ideal.
 
@@ -358,7 +358,7 @@ But wait... haven't Taiwan and South Korea *already* contained COVID-19? For 4 w
 
 How?
 
-###Scenario 4: Test, Trace, Isolate
+###Σενάριο 4: Τέστ, Ανίχνευση, Απομόνωση
 
 *"Sure, we \*could've\* done what Taiwan & South Korea did at the start, but it's too late now. We missed the start."*
 
@@ -426,14 +426,14 @@ But what about folks without smartphones? Or infections through doorknobs? Or "t
 
 Isolating *symptomatic* cases would reduce R by up to 40%, and quarantining their *pre/a-symptomatic* contacts would reduce R by up to 50%[^oxford]:
 
-[^oxford]: From the same Oxford study that first recommended apps to fight COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) See Figure 2. Assuming R<sub>0</sub> = 2.0, they found that:    
+[^oxford]: Από την ίδια μελέτη της Οξφόρδης όπου αρχικά προτείνεται η χρήση εφαρμογών για την καταπολέμηση της COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) See Εικόνα 2. Υποθέτοντας R<sub>0</sub> = 2.0, ανακάλυψαν ότι:    
     
-    * Symptomatics contribute R = 0.8 (40%)
-    * Pre-symptomatics contribute R = 0.9 (45%)
-    * Asymptomatics contribute R = 0.1 (5%, though their model has uncertainty and it could be much lower)
-    * Environmental stuff like doorknobs contribute R = 0.2 (10%)
+    * Συμπτωματικοί συνεισφέρουν R = 0.8 (40%)
+    * Προ-συμπτωματικοί συνεισφέρουν R = 0.9 (45%)
+    * Ασυμπτωματικοί συνεισφέρουν R = 0.1 (5%, αν και το μοντέλο τους έχει αβεβαιότητα και μπορεί να είναι αρκετά χαμηλότερο)
+    * Περιβαλλοντικές συνθήκες όπως για παράδειγμα τα πόμολα συνεισφέρουν R = 0.2 (10%)
 
-    And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!
+    Αν προσθέσουμε τις επαφές των προ- και α-συμπτωματικών (45% + 5%) παίρνουμε το 50% του R!
 
 <div class="sim">
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
@@ -512,9 +512,9 @@ Benefit: Even if it's a 50–50 chance of surgical masks reducing transmission b
 
 [^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.
 
-   **"They're hard to wear correctly."** It's also hard to wash your hands according to the WHO Guidelines – seriously, "Step 3) right palm over left dorsum"?! – but we still recommend handwashing, because imperfect is still better than nothing.
+   **"Είναι δύσκολο να φορεθούν σωστά."** It's also hard to wash your hands according to the WHO Guidelines – seriously, "Step 3) right palm over left dorsum"?! – but we still recommend handwashing, because imperfect is still better than nothing.
    
-   **"It'll make people more reckless with handwashing & social distancing."** Sure, and safety belts make people ignore stop signs, and flossing makes people eat rocks. But seriously, we'd argue the opposite: masks are a *constant physical reminder* to be careful – and in East Asia, masks are also a symbol of solidarity!
+   **"Θα κάνει τους ανθρώπους πιο απερίσκεπτους με το πλύσιμο των χεριών και τις αποστάσεις ασφαλείας."** Sure, and safety belts make people ignore stop signs, and flossing makes people eat rocks. But seriously, we'd argue the opposite: masks are a *constant physical reminder* to be careful – and in East Asia, masks are also a symbol of solidarity!
     
     
 
@@ -649,7 +649,7 @@ Still, infectious disease researchers have expressed worries: What if we can't m
 
 [^vax_safe]: “Don’t rush to deploy COVID-19 vaccines and drugs without sufficient safety guarantees” [by Shibo Jiang, on Nature](https://www.nature.com/articles/d41586-020-00751-9)
 
-Even in the nightmare "no-vaccine" scenario, we still have 3 ways out. From most to least terrible:
+Ακόμη και στο εφιαλτικαό σενάρι στο οποίο "δεν" βρίσκεται εμβόλιο, έχουμε ακόμη 3 τρόπους. Από τον περισσότερο στον λιγότερο φρικτό:
 
 1) Do intermittent or loose R < 1 interventions, to reach "natural herd immunity". (Warning: this will result in many deaths & damaged lungs. *And* won't work if immunity doesn't last.)
 
@@ -663,7 +663,7 @@ Even in the nightmare "no-vaccine" scenario, we still have 3 ways out. From most
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Even under the *worst* worst-case scenario... life perseveres.
+Ακόμη και κάτω από το *χειρότερο* σενάριο χειρότερης περίπτωσης ... η ζωή διατηρείτε.
 
 . . .
 
@@ -698,7 +698,7 @@ Maybe you'd like to challenge our assumptions, and try different R<sub>0</sub>'s
 
 Τι σημαίνει λοιπόν αυτό για ΣΕΝΑ, τώρα;
 
-**Για όλους:** Σεβαστείτε το lockdown ώστε να φύγουμε από την Φάση I το συντομότερο δυνατόν. Πλένετε τα χέρια σας. Φτιάξτε τις δικές σας μάσκες. Κατεβάστε μία *σεβομένη-προσωπικά δεδομένα* εφαρμογή ανίχνεσης επαφών όταν αυτές είναι διαθέσιμες τον επόμενο μήνα. Μείνετε υγιείς, σωματικά και πνευματικά! Γράψτε στους πολιτικούς να ξεκολλήσουν από τις καρέκλες τους και ...
+**Για όλους:** Σεβαστείτε το lockdown ώστε να φύγουμε από την Φάση I το συντομότερο δυνατόν. Πλένετε τα χέρια σας. Φτιάξτε τις δικές σας μάσκες. Κατεβάστε μία *σεβομένη-προσωπικά δεδομένα* εφαρμογή ανίχνεσης επαφών όταν αυτές είναι διαθέσιμες τον επόμενο μήνα. Μείνετε υγιείς, σωματικά και ψυχικά! Γράψτε στους πολιτικούς να ξεκολλήσουν από τις καρέκλες τους και ...
 
 **Για τους πολιτικούς:** Δημιουργήστε νόμους για να υποστηρίξετε ατόμα που πρέπει να απομονωθούν/καραντίνα. Προσλάβετε περισσότερους ανρθώπους για την ανίχνευση επαφών, *υποστηριζόμενοι* από σεβόμενες προσωπικά δεδομένα εφαρμογές ανίχνευσης επαφών. Διαθέστε περισσότερα κεφάλαια στα πράγματα που πρέπει να χτιστούν ...
 
