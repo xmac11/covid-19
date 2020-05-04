@@ -54,6 +54,6 @@ Wait for me to get off my lazy butt & accept the Pull Request (within \~72 hours
 - [ ] 🎉 Party! Your translation should now be linked to from the main page.
 (Remember to close your Github Issue!)
 
-[Greek translation](https://github.com/ncase/covid-19/issues/28f)
+[Greek translation](https://github.com/ncase/covid-19/issues/28)
 
  [`sim/index.html`](https://github.com/estamos/covid-19/blob/master/sim/index.html) 231-333 by [@xmac11](https://github.com/xmac11) 03-05-20
