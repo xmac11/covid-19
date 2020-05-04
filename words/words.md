@@ -316,19 +316,19 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 ###Σενάριο 2: Πολύμηνη Απαγόρευση Κυκλοφορίας
 
-Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <icon i></icon> to nearly nothing, then finally – *finally* – return to normal life:
+Ας δούμε τι θα συμβεί εάν *συντρίψουμε* την καμπύλη με μια 5μηνη απαγόρευση κυκλοφορίας, σχεδόν μηδενίσουμε τους <icon i></icon>, και επιτέλους – *επιτέλους* – επιστρέψουμε στην κανονική ζωή:
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
 </div>
 
-Oh.
+Ωχ.
 
-This is the "second wave" everyone's talking about. As soon as we remove the lockdown, we get R > 1 again. So, a single leftover <icon i></icon> (or imported <icon i></icon>) can cause a spike in cases that's almost as bad as if we'd done Scenario 0: Absolutely Nothing.
+Αυτό είναι το "δεύτερο κύμα" για το οποίο μιλάνε όλοι. Μόλις καταργήσουμε την απαγόρευση κυκλοφορίας, οδηγούμαστε και πάλι σε συντελεστή R > 1. Έτσι, ακόμα και ένας υπολειπόμενος <icon i></icon> (ή "εισαγόμενος" <icon i></icon>) μπορεί να προκαλέσει τέτοια αύξηση των κρουσμάτων, σχεδόν σαν να είχαμε επιλέξει το Σενάριο 0: Απολύτως Τίποτα.
 
-**A lockdown isn't a cure, it's just a restart.**
+**Η απαγόρευση κυκλοφορίας δεν είναι πανάκεια, είναι απλά μία επανεκκίνηση.**
 
-So, what, do we just lockdown again & again?
+Επομένως τι κάνουμε, απλώς απαγορεύουμε την κυκλοφορία ξανά και ξανά;
 
 ###Scenario 3: Intermittent Lockdown
 
