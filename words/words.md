@@ -12,7 +12,7 @@
 				🕐 30 λεπτά παιχνίδι/διάβασμα
 				&nbsp;&middot;&nbsp;
 			</b>
-			by
+			των
 			<a href="https://scholar.google.com/citations?user=_wHMGkUAAAAJ&amp;hl=en">Marcel Salathé</a>
 			(επιδημιολόγος)
 			&
@@ -51,7 +51,7 @@
 
 **Οι επιδημιολόγοι χρησιμοποιούν επιδημιακούς προσομοιωτές για να μάθουν πως να μην συντρίψουν την ανθρωπότητα.**
 
-Επομένως, ας κάνουμε εάν πολύ, *πολύ* απλό "επιαδημιακό προσομοιωτή πτήσης"! Σε αυτή την προσομοιώση, <icon i></icon> ά άνθρωποι που έχουν ήδη προσβληθεί μπορούν να μετατρέψουν<icon s></icon> άτομα που είναι πιο ευαίσθητα στην μετάδοση <icon i></icon> σε νοσούντες:
+Επομένως, ας κάνουμε εάν πολύ, *πολύ* απλό "επιδημιακό προσομοιωτή πτήσης"! Σε αυτή την προσομοιώση, <icon i></icon> ά άνθρωποι που έχουν ήδη προσβληθεί μπορούν να μετατρέψουν<icon s></icon> άτομα που είναι πιο ευαίσθητα στην μετάδοση <icon i></icon> σε νοσούντες:
 
 ![](pics/spread.png)
 
@@ -166,7 +166,7 @@ Short for "Reproduction number". It's the *average* number of people an <icon i>
 
 (Most news articles – and even some research papers! – confuse R and R<sub>0</sub>. Again, science terminology is bad)
 
-Το R<sub>0</sub> για  "την" εποχιακή γρίπη είναι περίπου 1.28[^r0_flu]. Αυτό σημαίνει ότι, στην *αρχή* μίας επιδημίας γρίπυς, κάθε <icon i></icon> μολύνει 1.28 άλλους *κατά μέσο όρο.* (Αν αυτό ακούγεται περίεργο, που δεν είναι ένας ολόκληρος αριθμός, θυμήσου ότι η "μέση" μητέρα έχει 2.4 παιδιά. Αυτό δεν σημαίνει ότι υπάρχουν μισά παιδία.)
+Το R<sub>0</sub> για "την" εποχιακή γρίπη είναι περίπου 1.28[^r0_flu]. Αυτό σημαίνει ότι, στην *αρχή* μίας επιδημίας, κάθε <icon i></icon> μολύνει 1.28 άλλους *κατά μέσο όρο.* (Αν αυτό ακούγεται περίεργο που δεν είναι ένας ολόκληρος αριθμός, θυμήσου ότι η "μέση" μητέρα έχει 2.4 παιδιά. Αυτό δε σημαίνει ότι υπάρχουν μισά παιδιά.)
 
 [^r0_flu]: “Το μέση τιμή του R για την εποχική γρίπη ήταν 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
@@ -200,9 +200,9 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
 </div>
 
-**ΣΗΜΕΙΩΣΗ: Οι συνολικές περιπτώσεις *δεν σταματούν* στην ασυλία της αγέλης, αλλά την υπερκαλύπτουν!** Και διασχίζει το όριο *ακριβώς* όταν οι τρέχουσες περιπτώσεις κορυφώνονται. (Αυτό συμβαίνει ανεξάρτητα από το πώς αλλάζετε τις ρυθμίσεις - δοκιμάστε το μόνοι σας!)
+**ΣΗΜΕΙΩΣΗ: Τα συνολικά κρούσματα *δεν σταματούν* στην ανοσία της αγέλης, αλλά την υπερκαλύπτουν!** Και διασχίζει το όριο *ακριβώς* όταν οι τρέχουσες περιπτώσεις κορυφώνονται. (Αυτό συμβαίνει ανεξάρτητα από το πώς αλλάζετε τις ρυθμίσεις - δοκιμάστε το μόνοι σας!)
 
-Αυτό συμβαίνει επειδή όταν υπάρχουν περισσότερα μη-<icon s></icon>s από το όριο ασυλίας των κοπαδιών, λαμβάνετε R < 1. Και όταν R < 1, νέες περιπτώσεις σταματούν να αυξάνονται: μια κορυφή.
+Αυτό συμβαίνει επειδή όταν υπάρχουν περισσότερα μη-<icon s></icon> από το όριο ανοσίας της αγέλης, λαμβάνετε R < 1. Και όταν R < 1, τα νέα κρούσματα σταματούν να αυξάνονται: μια κορυφή.
 
 **Εάν υπάρχει μόνο ένα μάθημα που παίρνετε από αυτόν τον οδηγό, εδώ είναι** - είναι ένα πολύ περίπλοκο διάγραμμα, οπότε αφιερώστε χρόνο για να το απορροφήσετε πλήρως:
 
@@ -210,9 +210,9 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 **Αυτό σημαίνει: ΔΕΝ χρειάζεται να πιάσουμε όλες τις μεταδόσεις, ή ακόμη και σχεδόν όλες τις μεταδόσεις, για να σταματήσουμε τη COVID-19!**
 
-It's a paradox. COVID-19 is extremely contagious, yet to contain it, we "only" need to stop more than 60% of infections. 60%?! If that was a school grade, that's a D-. But if R<sub>0</sub> = 2.5, cutting that by 61% gives us R = 0.975, which is R < 1, virus is contained! (exact formula:[^exact_formula])
+Είναι παράδοξο. Η νόσος COVID-19 είναι εξαιρετικά μεταδοτική, παρ’ όλα αυτά, πρέπει να σταματήσουμε "μόνο" το 60% των μολύνσεων. 60%?! Αν αυτό ήταν βαθμολογία στο σχολείο, θα ήταν Δ. Αν όμως ο R<sub>0</sub> = 2.5, μειώνοντάς τον κατά 61% μας δίνει R = 0.975, ο οποίος είναι R < 1, δηλαδή ο ιός έχει αναχαιτιστεί! (ακριβής τύπος:[^exact_formula])
 
-[^exact_formula]: Remember R = R<sub>0</sub> * the ratio of transmissions still allowed. Remember also that ratio of transmissions allowed = 1 - ratio of transmissions *stopped*.
+[^exact_formula]: Θυμήσου R = R<sub>0</sub> * the ratio of transmissions still allowed. Remember also that ratio of transmissions allowed = 1 - ratio of transmissions *stopped*.
     
     Therefore, to get R < 1, you need to get R<sub>0</sub> * TransmissionsAllowed < 1. 
     
@@ -226,109 +226,109 @@ It's a paradox. COVID-19 is extremely contagious, yet to contain it, we "only" n
 
 ![](pics/r4.png)
 
-(If you think R<sub>0</sub> or the other numbers in our simulations are too low/high, that's good you're challenging our assumptions! There'll be a "Sandbox Mode" at the end of this guide, where you can plug in your *own* numbers, and simulate what happens.)
+(Αν θεωρείτε ότι ο R<sub>0</sub> ή οι υπόλοιποι αριθμοί των προσομοιώσεών μας είναι πολύ χαμηλοί/υψηλοί, είναι καλό που αμφισβητείτε τις υποθέσεις μας! Υπάρχει ειδική πλατφόρμα στο τέλος αυτού του οδηγού όπου μπορείτε να χρησιμοποιήσετε τους *δικούς σας* αριθμούς και να προσομοιώσετε τι συμβαίνει.)
 
-*Every* COVID-19 intervention you've heard of – handwashing, social/physical distancing, lockdowns, self-isolation, contact tracing & quarantining, face masks, even "herd immunity" – they're *all* doing the same thing:
+*Κάθε* παρέμβαση για τον COVID-19 που έχετε ακούσει – πλύσιμο χεριών, κοινωνική/φυσική απόσταση, απαγορεύσεις κυκλοφορίας, αυτο-απομόνωση, ιχνηλάτηση επαφών & καραντίνα, μάσκες, ακόμα και η "ανοσία της αγέλης" – *όλες* ωθούν στο ίδιο αποτέλεσμα:
 
-Getting R < 1.
+Επίτευξη R < 1.
 
-So now, let's use our "epidemic flight simulator" to figure this out: How can we get R < 1 in a way **that also protects our mental health *and* financial health?**
+Οπότε τώρα ας χρησιμοποιήσουμε τον "επιδημιακό προσομοιωτή πτήσης" μας για να ανακαλύψουμε το εξής: Πώς μπορούμε να πετύχουμε R < 1 με τρόπο **που να προστατεύει την ψυχική μας υγεία *και* την οικονομική μας κατάσταση;**
 
-Brace yourselves for an emergency landing...
+Προετοιμαστείτε για αναγκαστική προσγείωση...
 
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Next Few Months</div>
+        <div>Οι Επόμενοι Μήνες</div>
     </div>
 </div>
 
-...could have been worse. Here's a parallel universe we avoided:
+...θα μπορούσε να ήταν χειρότεροι. Αυτό είναι ένα παράλληλο σύμπαν που αποφύγαμε:
 
-###Scenario 0: Do Absolutely Nothing
+###Σενάριο 0: Δεν Κάνουμε Απολύτως Τίποτα
 
-Around 1 in 20 people infected with COVID-19 need to go to an ICU (Intensive Care Unit).[^icu_covid] In a rich country like the USA, there's 1 ICU bed per 3400 people.[^icu_us] Therefore, the USA can handle 20 out of 3400 people being *simultaneously* infected – or, 0.6% of the population.
+Περίπου 1 στους 20 ανθρώπους που μολύνονται από τον COVID-19 πρέπει να νοσηλευτούν σε ΜΕΘ (Μονάδα Εντατικής Θεραπείας).[^icu_covid] Σε μια πλούσια χώρα όπως οι ΗΠΑ, υπάρχει 1 κλίνη ΜΕΘ ανά 3400 ανθρώπους.[^icu_us] Επομένως, οι ΗΠΑ μπορούν να διαχειριστούν 20 από τους 3400 ανθρώπους που έχουν μολυνθεί *ταυτόχρονα* – δηλαδή το 0.6% του πλυθησμού.
 
-[^icu_covid]: ["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Between 4.9% to 11.5% of *all* COVID-19 cases required ICU. Generously picking the lower range, that's 5% or 1 in 20. Note that this total is specific to the US's age structure, and will be higher in countries with older populations, lower in countries with younger populations.
+[^icu_covid]: ["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Μεταξύ 4.9% και 11.5% *όλων* των κρουσμάτων της νόσου COVID-19 χρειάστηκαν κλίνη ΜΕΘ. Αν επιλέξουμε αισιόδοξα τη χαμηλότερη τιμή, αυτή είναι 5% ή 1 στους 20. Σημειώστε ότι αυτό το ποσοστό αφορά συγκεκριμένα την ηλικιακή κατανομή των ΗΠΑ, και θα είναι υψηλότερο σε άλλες χώρες με περισσότερους ηλικιωμένους, και αντίστοιχα χαμηλότερο σε χώρες με περισσότερους νέους.
 
-[^icu_us]: “Number of ICU beds = 96,596”. From [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) USA Population was 328,200,000 in 2019. 96,596 out of 328,200,000 = roughly 1 in 3400. 
+[^icu_us]: “Αριθμός κλινών ΜΕΘ = 96,596”. Από το [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) Ο πληθυσμός των ΗΠΑ ήταν 328,200,000 το 2019. 96,596 από 328,200,000 = περίπου 1 in 3400. 
 
-Even if we *more than tripled* that capacity to 2%, here's what would've happened *if we did absolutely nothing:*
+Ακόμα και αν *υπερ-τριπλασιάζαμε* τη χωρητικότητα στο 2%, ας δούμε τι θα συνέβαινε *αν δεν κάναμε απολύτως τίποτα:*
 
 <div class="sim">
 		<iframe src="sim?stage=int-1&format=lines" width="800" height="540"></iframe>
 </div>
 
-Not good.
+Καθόλου καλά.
 
-That's what [the March 16 Imperial College report](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/) found: do nothing, and we run out of ICUs, with more than 80% of the population getting infected. 
-(remember: total cases *overshoots* herd immunity)
+Σε αυτό το συμπέρασμα κατέληξε [η αναφορά της 16ης Μαρτίου του κολλεγίου Imperial](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/): αν δεν κάνουμε τίποτα, θα ξεμείνουμε από κλίνες ΜΕΘ, με περισσότερο από το 80% του πληθυσμού να μολύνεται. 
+(θυμηθείτε: τα συνολικά κρούσματα *υπερκαλύπτουν* την ανοσία της αγέλης)
 
-Even if only 0.5% of infected die – a generous assumption when there's no more ICUs – in a large country like the US, with 300 million people, 0.5% of 80% of 300 million = still 1.2 million dead... *IF we did nothing.*
+Ακόμα και αν μόνο το 0.5% των νοσούντων πεθάνει – μία αισιόδοξη υπόθεση όταν δε θα υπάρχουν άλλες κλίνες ΜΕΘ – σε μια μεγάλη χώρα όπως οι ΗΠΑ, με 300 εκατομμύρια ανθρώπους, το 0.5% του 80% των 300 εκατομμυρίων = 1.2 εκατομμύρια νερκοί... *ΑΝ δεν κάναμε τίποτα.*
 
-(Lots of news & social media reported "80% will be infected" *without* "IF WE DO NOTHING". Fear was channelled into clicks, not understanding. *Sigh.*)
+(Πολλές ειδήσεις & μέσα κοινωνικής δικτύωσης ανέφεραν ότι "το 80% θα μολυνθεί" *παραλείποντας* το "ΑΝ ΔΕΝ ΚΑΝΟΥΜΕ ΤΙΠΟΤΑ". Ο φόβος διοχετεύτηκε σε κλικ ειδήσεων, και όχι στην κατανόηση της κατάστασης. *Αναστεναγμός.*)
 
-###Scenario 1: Flatten The Curve / Herd Immunity
+###Σενάριο 1: Επιπέδωση της Καμπύλης / Ανοσία της Αγέλης
 
-The "Flatten The Curve" plan was touted by every public health organization, while the United Kingdom's original "herd immunity" plan was universally booed. They were *the same plan.* The UK just communicated theirs poorly.[^yong]
+Το σχέδιο "Επιπέδωση της Καμπύλης" προωθήθηκε από κάθε οργανισμό δημόσιας υγείας, ενώ το αρχικό σχέδιο του Ηνωμένου Βασιλείου για "ανοσία της αγέλης" αποδοκιμάστηκε καθολικά. Ήταν *το ίδιο σχέδιο.* Απλώς το Ηνωμένο Βασίλειο δεν το επικοινώνησε σωστά.[^yong]
 
-[^yong]: “He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all.”
+[^yong]: “Λέει ότι ο πραγματικός στόχος είναι ο ίδιος με αυτόν των άλλων χωρών: επιπέδωση της καμπύλης ανακόπτοντας την ταυτόχρονη γενικευμένη επέλαση του ιού. Σαν αποτέλεσμα, η χώρα μπορεί να επιτύχει ανοσία αγέλης. Όμως είναι ένα από τα αποτελέσματα, όχι ο αυτοσκοπός. [...] Το πραγματικό σχέδιο δράσης της κυβέρνησης, που είναι διαθέσιμο στο διαδίκτυο, δεν αναφέρει καθόλου την ανοσία της αγέλης.”
     
-    From a [The Atlantic article by Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/)
+    Από το [The Atlantic article by Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/)
 
-Both plans, though, had a literally fatal flaw.
+Και τα δύο σχέδια, ωστόσο, είχαν ένα κυριολεκτικά θανάσιμο ελάττωμα.
 
-First, let's look at the two main ways to "flatten the curve": handwashing & physical distancing.
+Αρχικά, ας δούμε τους δύο βασικούς τρόπους "επιπέδωσης της καμπύλης": πλύσιμο χεριών & φυσική απόσταση.
 
-Increased handwashing cuts flus & colds in high-income countries by ~25%[^handwashing], while the city-wide lockdown in London cut close contacts by ~70%[^london]. So, let's assume handwashing can reduce R by *up to* 25%, and distancing can reduce R by *up to* 70%:
+Το αυξημένο πλύσιμο των χεριών μειώνει τις γρίπες & τα κρυολογήματα σε χώρες υψηλού εισοδήματος κατά ~25%[^handwashing], ενώ η γενικευμένη απαγόρευση κυκλοφορίας στο Λονδίνο ελάττωσε τις στενές επαφές κατά ~70%[^london]. Επομένως, ας υποθέσουμε ότι το πλύσιμο των χεριών μπορεί να ελαττώσει το συντελεστή R *έως και* 25%, και ότι η φυσική απόσταση μπορεί να μειώσει το συντελεστή R *έως και* 70%:
 
-[^handwashing]: “All eight eligible studies reported that handwashing lowered risks of respiratory infection, with risk reductions ranging from 6% to 44% [pooled value 24% (95% CI 6–40%)].” We rounded up the pooled value to 25% in these simulations for simplicity. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Note: as this meta-analysis points out, the quality of studies for handwashing (at least in high-income countries) are awful.
+[^handwashing]: “Και οι οχτώ επιλέξιμες μελέτες ανέφεραν ότι το πλύσιμο των χεριών μείωσε τους κινδύνους αναπνευστικής λοίμωξης, με τις μειώσεις κινδύνου να κυμαίνονται από 6% έως 44% [τυπική απόκλιση 24% (95% CI 6–40%)].” Για απλότητα, στρογγυλοποιήσαμε την τυπική απόκλιση σε αυτές τις προσομοιώσεις στο 25%. [Rabie, T. and Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Σημείωση: όπως επισημαίνει αυτή η μετα-ανάλυση, η ποιότητα των μελετών για το πλύσιμο των χεριών (τουλάχιστον στις χώρες με υψηλό εισόδημα) είναι κακή.
 
-[^london]: “We found a 73% reduction in the average daily number of contacts observed per participant. This would be sufficient to reduce R0 from a value from 2.6 before the lockdown to 0.62 (0.37 - 0.89) during the lockdown”. We rounded it down to 70% in these simulations for simplicity. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)
+[^london]: “Παρατηρήσαμε μείωση κατά 73% στο μέσο ημερήσιο αριθμό επαφών ανά συμμετέχοντα. Αυτό θα ήταν αρκετό για να μειώσει το συντελεστή R0 από την τιμή 2.6 που είχε πριν την απαγόρευση κυκλοφορίας, σε 0.62 (0.37 - 0.89) κατά τη διάρκεια της απαγόρευσης”. Σε αυτές τις προσομοιώσεις το στρογγυλοποιήσαμε στο 70% για απλότητα. [Jarvis and Zandvoort et al](https://cmmid.github.io/topics/covid19/comix-impact-of-physical-distance-measures-on-transmission-in-the-UK.html)
 
-**Play with this calculator to see how % of non-<icon s></icon>, handwashing, and distancing reduce R:** (this calculator visualizes their *relative* effects, which is why increasing one *looks* like it decreases the effect of the others.[^log_caveat])
+**Πειραματιστείτε με το πρόγραμμα παρακάτω για να δείτε πως το % των μη-<icon s></icon>, το πλύσιμο των χεριών και η κοινωνική απόσταση μειώνουν το συντελεστή R:** (αυτό το πρόγραμμα απεικονίζει τη *σχετική* τους επίδραση, γι' αυτό το λόγο η αύξηση ενός *φαίνεται* σα να μειώνει την επίδραση των άλλων.[^log_caveat])
 
-[^log_caveat]: This distortion would go away if we plotted R on a logarithmic scale... but then we'd have to explain *logarithmic scales.*
+[^log_caveat]: Αυτή η αλλοίωση θα εξαφανιζόταν αν σχεδιάζαμε το συντελεστή R σε λογαριθμική κλίμακα... αλλά τότε θα έπρεπε να εξηγήσουμε τις *λογαριθμικές κλίμακες.*
 
 <div class="sim">
 		<iframe src="sim?stage=int-2a&format=calc" width="285" height="260"></iframe>
 </div>
 
-Now, let's simulate what happens to a COVID-19 epidemic if, starting March 2020, we had increased handwashing but only *mild* physical distancing – so that R is lower, but still above 1:
+Τώρα, ας προσομοιώσουμε τι συμβαίνει στην επιδημία του κορονοϊού εάν από το Μάρτιο του 2020 είχαμε αυξήσει το πλύσιμο των χεριών αλλά τηρούσαμε μόνο *ήπια* φυσική απόσταση – έτσι ώστε ο συντελεστής R να μειωθεί μεν, αλλά να εξακολουθεί να είναι πάνω από 1:
 
 <div class="sim">
 		<iframe src="sim?stage=int-2&format=lines" width="800" height="540"></iframe>
 </div>
 
-Three notes:
+Τρεις παρατηρήσεις:
 
-1. This *reduces* total cases! **Even if you don't get R < 1, reducing R still saves lives, by reducing the 'overshoot' above herd immunity.** Lots of folks think "Flatten The Curve" spreads out cases without reducing the total. This is impossible in *any* Epidemiology 101 model. But because the news reported "80%+ will be infected" as inevitable, folks thought total cases will be the same no matter what. *Sigh.*
+1. Αυτό *ελαττώνει* το συνολικό αριθμό κρουσμάτων! **Ακόμα και αν δεν πετύχουμε R < 1, η μείωση του συντελεστή R εξακολουθεί να σώζει ζωές, ελαττώνοντας την 'υπέρβαση' πάνω από το όριο ανοσίας της αγέλης.** Πολλοί πιστεύουν ότι η "Επιπέδωση της Καμπύλης" απλώνει χρονικά τα κρούσματα χωρίς να ελαττώνει το συνολικό αριθμό. Αυτό είναι αδύνατο σε *οποιοδήποτε* μοντέλο Επιδημιολογίας 101. Αλλά επειδή οι ειδήσεις παρουσίασαν ως αναπόφευκτο το γεγονός ότι "το 80%+ θα μολυνθεί", ο κόσμος πίστεψε ότι ο συνολικός αριθμός κρουσμάτων θα είναι ο ίδιος ό,τι κι αν κάνουμε. *Αναστεναγμός.*
 
-2. Due to the extra interventions, current cases peak *before* herd immunity is reached. In fact, in this simulation, total cases only overshoots *a tiny bit* above herd immunity – the UK's plan! At that point, R < 1, you can let go of all other interventions, and COVID-19 stays contained! Well, except for one problem...
+2. Λόγω των επιπλέον παρεμβάσεων, ο αριθμός των ενεργών κρουσμάτων κορυφώνεται *πριν* επιτευχθεί η ανοσία της αγέλης. Πράγματι, σε αυτή την προσομοίωση, ο συνολικός αριθμός κρουσμάτων  υπερβαίνει *ελάχιστα* το όριο ανοσίας της αγέλης – το σχέδιο του Ηνωμένου Βασιλείου! Σε αυτό το σημείο, R < 1, μπορείτε να αφήσετε όλες τις άλλες παρεμβάσεις – η νόσος COVID-19 έχει αναχαιτιστεί! Εκτός από ένα πρόβλημα...
 
-3. You still run out of ICUs. For several months. (and remember, we *already* tripled ICUs for these simulations)
+3. Εξακολουθείτε να ξεμένετε από κλίνες ΜΕΘ. Για αρκετούς μήνες. (και θυμηθείτε, έχουμε *ήδη* τριπλασιάσει τις κλίνες ΜΕΘ για αυτές τις προσομοιώσεις)
 
-That was the other finding of the March 16 Imperial College report, which convinced the UK to abandon its original plan. Any attempt at **mitigation** (reduce R, but R > 1) will fail. The only way out is **suppression** (reduce R so that R < 1).
+Αυτό ήταν το άλλο εύρημα της αναφοράς του κολλεγίου Imperial στις 16 Μαρτίου, η οποία έπεισε το Ηνωμένο Βασίλειο να εγκαταλείψει το αρχικό του πλάνο. Οποιαδήποτε προσπάθεια **άμβλυνσης** (μείωση του R, αλλά R > 1) θα αποτύχει. Η μόνη διέξοδος είναι η **καταστολή** (μείωση του R έτσι ώστε R < 1).
 
 ![](pics/mitigation_vs_suppression.png)
 
-That is, don't merely "flatten" the curve, *crush* the curve. For example, with a...
+Με άλλα λόγια, μην "επιπεδώσετε" απλώς την καμπύλη, *συντρίψτε* την καμπύλη. Για παράδειγμα, με μια...
 
-###Scenario 2: Months-Long Lockdown
+###Σενάριο 2: Πολύμηνη Απαγόρευση Κυκλοφορίας
 
-Let's see what happens if we *crush* the curve with a 5-month lockdown, reduce <icon i></icon> to nearly nothing, then finally – *finally* – return to normal life:
+Ας δούμε τι θα συμβεί εάν *συντρίψουμε* την καμπύλη με μια 5μηνη απαγόρευση κυκλοφορίας, σχεδόν μηδενίσουμε τους <icon i></icon>, και επιτέλους – *επιτέλους* – επιστρέψουμε στην κανονική ζωή:
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
 </div>
 
-Oh.
+Ωχ.
 
-This is the "second wave" everyone's talking about. As soon as we remove the lockdown, we get R > 1 again. So, a single leftover <icon i></icon> (or imported <icon i></icon>) can cause a spike in cases that's almost as bad as if we'd done Scenario 0: Absolutely Nothing.
+Αυτό είναι το "δεύτερο κύμα" για το οποίο μιλάνε όλοι. Μόλις καταργήσουμε την απαγόρευση κυκλοφορίας, οδηγούμαστε και πάλι σε συντελεστή R > 1. Έτσι, ακόμα και ένας υπολειπόμενος <icon i></icon> (ή "εισαγόμενος" <icon i></icon>) μπορεί να προκαλέσει τέτοια αύξηση των κρουσμάτων, σχεδόν σαν να είχαμε επιλέξει το Σενάριο 0: Απολύτως Τίποτα.
 
-**Το lockdown δεν είναι πανάκεια, είναι απλά μία επανεκκίνηση.**
+**Η απαγόρευση κυκλοφορίας δεν είναι πανάκεια, είναι απλά μία επανεκκίνηση.**
 
-Επομένως, τι κάνουμε, απλώς κάνουμε lockdown ξανά & ξανά ;
+Επομένως τι κάνουμε, απλώς απαγορεύουμε την κυκλοφορία ξανά και ξανά;
 
 ###Σενάριο 3: Intermittent Lockdown
 
