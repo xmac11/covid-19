@@ -61,9 +61,9 @@
 
 Αν προσομοιώσουμε "διπλασιάστε κάθε 4 ημέρες" *και τίποτα άλλο*, σε έναν πληθυσμό που ξεκινά με μόλις 0,001% <icon i></icon>, τι συμβαίνει;
 
-**Πάτησε "Ξεκίνα" για να ξεκινήσεις την αναπαραγωγή της προσομοίωσης! Μπορείς να την αναπαράγεις ξανά με διαφορετικές ρυθμίσειςYou can re-play it later with different settings:** (technical caveats: [^caveats])
+**Πάτησε "Ξεκίνα" για να ξεκινήσεις την αναπαραγωγή της προσομοίωσης! Μπορείς να την αναπαράγεις ξανά με διαφορετικές ρυθμίσεις:** (τεχνικές προειδοποιήσεις: [^caveats])
 
-[^caveats]: **Θυμηθείτε: όλες οι προσομοιώσεις είναι πλήρως απλοποιημένες, για εκπαιδευτικούς σκοπούς.**
+[^caveats]: **Θυμηθείτε: όλες οι προσομοιώσεις είναι εξαιρετικά απλοποιημένες, για εκπαιδευτικούς σκοπούς.**
     
     One simplification: When you tell this simulation "Infect 1 new person every X days", it's actually increasing # of infected by 1/X each day. Same for future settings in these simulations – "Recover every X days" is actually reducing # of infected by 1/X each day.
     
@@ -83,7 +83,7 @@
 
 The more <icon i></icon>s there are, the faster <icon s></icon>s become <icon i></icon>s, **but the fewer <icon s></icon>s there are, the *slower* <icon s></icon>s become <icon i></icon>s.**
 
-Πως αυτό αλλάζει την ανάπτυξη μίας επιδημίας; Ας το ανακαλύψουμε:
+Πώς αυτό αλλάζει την ανάπτυξη μίας επιδημίας; Ας το ανακαλύψουμε:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-2" width="800" height="540"></iframe>
@@ -360,63 +360,63 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 ###Σενάριο 4: Τεστ, Ιχνηλάτηση, Απομόνωση
 
-*"Sure, we \*could've\* done what Taiwan & South Korea did at the start, but it's too late now. We missed the start."*
+*"Βεβαίως, \*θα μπορούσαμε\* να είχαμε κάνει ό,τι έκαναν η Ταϊβάν και η Νότια Κορέα στην αρχή, αλλά είναι πολύ αργά πλέον. Χάσαμε την εκκίνηση."*
 
-But that's exactly it! “A lockdown isn't a cure, it's just a restart”... **and a fresh start is what we need.**
+Αλλά αυτό είναι το νόημα! “Η απαγόρευση κυκλοφορίας δεν είναι πανάκεια, είναι απλά μία επανεκκίνηση”... **και μια επανεκκίνηση είναι ό,τι χρειαζόμαστε.**
 
-To understand how Taiwan & South Korea contained COVID-19, we need to understand the exact timeline of a typical COVID-19 infection[^timeline]:
+Για να καταλάβουμε πώς η Ταϊβάν και η Νότια Κορέα περιόρισαν την COVID-19, πρέπει να καταλάβουμε το ακριβές χρονολόγιο μιας τυπικής μόλυνσης από COVID-19[^timeline]:
 
-[^timeline]: **3 days on average to infectiousness:** “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)  
+[^timeline]: **3 ημέρες κατά μέσο όρο έως τη μολυσματικότητα:** “Υποθέτοντας μία κατανομή περιόδου επώασης κατά μέσο όρο 5.2 ημερών από μία ξεχωριστή μελέτη των πρώτων κρουσμάτων COVID-19, συμπεραίναμε ότι η μολυσματικότητα ξεκίνησε 2.3 ημέρες (95% CI, 0.8–3.0 ημέρες) πριν την εμφάνιση συμπτωμάτων” (σε απλά ελληνικά: Υποθέτοντας ότι τα συμπτώματα εμφανίζονται μετά από 5 ημέρες, η μολυσματικότητα ξεκινά 2 ημέρες πριν = Η μολυσματικότητα ξεκινά μετά από 3 ημέρες) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)  
     
-    **4 days on average to infecting someone else:** “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
+    **4 ημέρες κατά μέσο όρο για τη μόλυνση κάποιου άλλου:** “Το μέσο [σειριακό] διάστημα ήταν 3.96 ημέρες (95% CI 3.53–4.39 ημέρες)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
     
-    **5 days on average to feeling symptoms:** “The median incubation period was estimated to be 5.1 days (95% CI, 4.5 to 5.8 days)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
+    **5 ημέρες κατά μέσο όρο μέχρι τη βίωση συμπτωμάτων:** “Η μέση περίοδος επώασης εκτιμήθηκε σε 5.1 ημέρες (95% CI, 4.5 to 5.8 ημέρες)” [Lauer SA, Grantz KH, Bi Q, et al](https://annals.org/AIM/FULLARTICLE/2762808/INCUBATION-PERIOD-CORONAVIRUS-DISEASE-2019-COVID-19-FROM-PUBLICLY-REPORTED)
 
 ![](pics/timeline1.png)
 
-If cases only self-isolate when they know they're sick (that is, they feel symptoms), the virus can still spread:
+Αν τα κρούσματα τίθενται σε απομόνωση μόνο όταν γνωρίζουν ότι έχουν νοσήσει (δηλαδή, όταν βιώσουν συμπτώματα), ο ιός μπορεί ακόμα να εξαπλωθεί:
 
 ![](pics/timeline2.png)
 
-And in fact, 44% of all transmissions are like this: *pre*-symptomatic! [^pre_symp]
+Και στην πραγματικότητα, 44% όλων των μεταδόσεων γίνονται με αυτόν τον τρόπο: από *προ*-συμπτωματικά κρούσματα! [^pre_symp]
 
-[^pre_symp]: “We estimated that 44% (95% confidence interval, 25–69%) of secondary cases were infected during the index cases’ presymptomatic stage” [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)
+[^pre_symp]: “Υπολογίσαμε ότι το 44% (95% διάστημα εμπιστοσύνης, 25–69%) των μεταγενέστερων κρουσμάτων μολύνθηκαν κατά τη διάρκεια του προ-συμπτωματικού σταδίου των αρχικών κρουσμάτων” [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)
 
-But, if we find *and quarantine* a symptomatic case's recent close contacts... we stop the spread, by staying one step ahead!
+Αλλά αν βρούμε *και απομονώσουμε* τις πρόσφατες στενές επαφές των συμπτωματικών κρουσμάτων... σταματάμε τη εξάπλωση, παραμένοντας ένα βήμα μπροστά!
 
 ![](pics/timeline3.png)
 
-This is called **contact tracing**. It's an old idea, was used at an unprecedented scale to contain Ebola[^ebola], and now it's core part of how Taiwan & South Korea are containing COVID-19!
+Αυτό ονομάζεται **ιχνηλάτηση επαφών**. Είναι παλιά ιδέα, χρησιμοποιήθηκε σε μία άνευ προηγουμένου κλίμακα για τον περιορισμό του Έμπολα[^ebola], και τώρα είναι καθοριστικός παράγοντας για το πώς η Ταϊβάν και η Νότια Κορέα περιορίζουν την COVID-19!
 
-[^ebola]: “Contact tracing was a critical intervention in Liberia and represented one of the largest contact tracing efforts during an epidemic in history.” [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
+[^ebola]: “Η ιχνηλάτηση επαφών ήταν καθοριστική παρέμβαση στη Λιβερία και αποτέλεσε μία από τις μεγαλύτερες προσπάθειες ιχνηλάτησης επαφών κατά τη διάρκεια μιας επιδημίας στην ιστορία.” [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
 
-(It also lets us use our limited tests more efficiently, to find pre-symptomatic <icon i></icon>s without needing to test almost everyone.)
+(Μας επιτρέπει επίσης να χρησιμοποιήσουμε πιο αποτελεσματικά τον περιορισμένο αριθμό τεστ, για να εντοπίσουμε προ-συμπτωματικούς <icon i></icon> χωρίς να χρειαστεί να εξετάσουμε το σύνολο σχεδόν του πληθυσμού.)
 
-Traditionally, contacts are found with in-person interviews, but those *alone* are too slow for COVID-19's ~48 hour window. That's why contact tracers need help, and be supported by – *NOT* replaced by – contact tracing apps.
+Υπό κανονικές συνθήκες, οι επαφές των κρουσμάτων ιχνηλατούνται από τις πληροφορίες που παρέχουν οι ίδιοι οι ασθενείς, αλλά αυτό *από μόνο του* είναι πολύ αργό για το περιθώριο ~48 ωρών της COVID-19. Γι' αυτό το λόγο ο ανθρώπινος παράγοντας χρειάζεται βοήθεια και υποστήριξη – *ΟΧΙ* αντικατάσταση – από κινητές εφαρμογές ιχνηλάτησης.
 
-(This idea didn't come from "techies": using an app to fight COVID-19 was first proposed by [a team of Oxford epidemiologists](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936).)
+(Η ιδέα αυτή δεν προήλθε από "κομπιουτεράκιδες": η χρήση κινητής εφαρμογής για την καταπολέμηση της COVID-19 προτάθηκε για πρώτη φορά από [μια ομάδα επιδημιολόγων της Οξφόρδης](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936).)
 
-Wait, apps that trace who you've been in contact with?... Does that mean giving up privacy, giving in to Big Brother?
+Μισό λεπτό, εφαρμογές που εντοπίζουν με ποιους ήρθαμε σε επαφή;... Αυτό σημαίνει ότι παραδίδουμε την ιδιωτικότητά μας στο Μεγάλο Αδερφό;
 
-Heck no! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, a team of epidemiologists & cryptographers (including one of us, Marcel Salathé) is *already* making a contact tracing app – with code available to the public – that reveals **no info about your identity, location, who your contacts are, or even *how many contacts* you've had.**
+Σε καμία περίπτωση! Η **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, μία ομάδα επιδημιολόγων και ερευνητών στον τομέα της κρυπτογραφίας (συμπεριλαμβανομένου ενός από εμάς, του Marcel Salathé) *ήδη* αναπτύσσει μια κινητή εφαρμογή ιχνηλάτησης επαφών – με κώδικα διαθέσιμο στο κοινό  – η οποία **δεν αποκαλύπτει καμία πληροφορία σχετικά με την ταυτότητά σας, την τοποθεσία σας, την ταυτότητα των επαφών σας, ή ακόμα και το *πόσες επαφές* είχατε.**
 
-Here's how it works:
+Δείτε πώς δουλεύει:
 
 ![](pics/dp3t.png)
 
-(& [here's the full comic](https://ncase.me/contact-tracing/))
+(& [Eδώ είναι το πλήρες κόμικ](https://ncase.me/contact-tracing/))
 
-Along with similar teams like TCN Protocol[^tcn] and MIT PACT[^pact], they've inspired Apple & Google to bake privacy-first contact tracing directly into Android/iOS.[^gapple] (Don't trust Google/Apple? Good! The beauty of this system is it doesn't *need* trust!) Soon, your local public health agency may ask you to download an app. If it's privacy-first with publicly-available code, please do!
+Μαζί με παρόμοιες ομάδες όπως η[^tcn] και η MIT PACT[^pact], ενέπνευσαν την Apple και τη Google να ενσωματώσουν ανώνυμες εφαρμογές ιχνηλάτησης επαφών απευθείας σε συσκευές Android/iOS.[^gapple] (Δεν εμπιστεύεσαι την Google/Apple; Κανένα πρόβλημα! Η ομορφιά αυτού του συστήματος είναι ότι δε *χρειάζεται* εμπιστοσύνη!) Σύντομα ο οργανισμός δημόσιας υγείας της χώρας σας μπορεί να σας ζητήσει να κατεβάσετε μια κινητή εφαρμογή. Εάν είναι ανώνυμη και με δημοσίως διαθέσιμο κώδικα, σας παρακαλώ να το κάνετε!
 
 [^tcn]: [Temporary Contact Numbers, a decentralized, privacy-first contact tracing protocol](https://github.com/TCNCoalition/TCN#tcn-protocol)
 
 [^pact]: [PACT: Private Automated Contact Tracing](https://pact.mit.edu/)
 
-[^gapple]: [Apple and Google partner on COVID-19 contact tracing technology ](https://www.apple.com/ca/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/). Note they're not making the apps *themselves*, just creating the systems that will *support* those apps.
+[^gapple]: [Η Apple και η Google συνεργάζονται για τη δημιουργία τεχνολογίας ιχνηλάτησης επαφών COVID-19 ](https://www.apple.com/ca/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/). Σημειώστε ότι δε φτιάχνουν τις εφαρμογές *οι ίδιες*, απλώς δημιουργούν τα συστήματα που θα *υποστηρίξουν* αυτές τις εφαρμογές.
 
-But what about folks without smartphones? Or infections through doorknobs? Or "true" asymptomatic cases? Contact tracing apps can't catch all transmissions... *and that's okay!* We don't need to catch *all* transmissions, just 60%+ to get R < 1.
+Τί γίνεται όμως με τους ανθρώπους χωρίς smartphones; Ή τις μεταδόσεις μέσω πόμολων; Ή τα "πραγματικά" ασυμπτωματικά κρούσματα; Οι εφαρμογές ιχνηλάτησης επαφών δεν μπορούν να εντοπίσουν όλες τις μεταδόσεις... *αλλά δεν πειράζει!* Δε χρειάζεται να εντοπίσουμε *όλες* τις μεταδόσεις, μόνο το 60%+ για να πετύχουμε R < 1.
 
-(Rant about the confusion about pre-symptomatic vs "true" asymptomatic. "True" asymptomatics are rare:[^rant])
+(Παραλήρημα σχετικά με τη σύγχυση ανάμεσα σε προ-συμπτωματικούς και "πραγματικά" ασυμπτωματικούς. Οι "πραγματικά" ασυμπτωματικοί είναι σπάνιοι:[^rant])
 
 [^rant]: Lots of news reports – and honestly, many research papers – did not distinguish between "cases who showed no symptoms when we tested them" (pre-symptomatic) and "cases who showed no symptoms *ever*" (true asymptomatic). The only way you could tell the difference is by following up with cases later.
    
