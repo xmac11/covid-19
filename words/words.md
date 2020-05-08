@@ -49,9 +49,9 @@
 
 Οι πιλότοι χρησιμοποιούν προσομοιωτές για να μάθουν πως να να μην συντρίβουν τα αεροπλάνα.
 
-**Οι επιδημιολόγοι χρησιμοποιούν επιδημιακούς προσομοιωτές για να μάθουν πως να μην συντρίψουν την ανθρωπότητα.**
+**Οι επιδημιολόγοι χρησιμοποιούν επιδημιολογικούς προσομοιωτές για να μάθουν πως να μην συντρίψουν την ανθρωπότητα.**
 
-Επομένως, ας κάνουμε εάν πολύ, *πολύ* απλό "επιδημιαλογικό προσομοιωτή πτήσης"! Σε αυτή την προσομοιώση, <icon i></icon> ά άνθρωποι που έχουν ήδη προσβληθεί μπορούν να μετατρέψουν<icon s></icon> άτομα που είναι πιο ευαίσθητα στην μετάδοση <icon i></icon> σε νοσούντες:
+Επομένως, ας κάνουμε έναν πολύ, *πολύ* απλό "επιδημιολογικό προσομοιωτή πτήσης"! Σε αυτή την προσομοιώση, <icon i></icon> ά άνθρωποι που έχουν ήδη προσβληθεί μπορούν να μετατρέψουν<icon s></icon> άτομα που είναι πιο ευαίσθητα στην μετάδοση <icon i></icon> σε νοσούντες:
 
 ![](pics/spread.png)
 
@@ -232,7 +232,7 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 Επίτευξη R < 1.
 
-Οπότε τώρα ας χρησιμοποιήσουμε τον "επιδημιακό προσομοιωτή πτήσης" μας για να ανακαλύψουμε το εξής: Πώς μπορούμε να πετύχουμε R < 1 με τρόπο **που να προστατεύει την ψυχική μας υγεία *και* την οικονομική μας κατάσταση;**
+Οπότε τώρα ας χρησιμοποιήσουμε τον "επιδημιολογικό προσομοιωτή πτήσης" μας για να ανακαλύψουμε το εξής: Πώς μπορούμε να πετύχουμε R < 1 με τρόπο **που να προστατεύει την ψυχική μας υγεία *και* την οικονομική μας κατάσταση;**
 
 Προετοιμαστείτε για αναγκαστική προσγείωση...
 
@@ -330,35 +330,35 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 Επομένως τι κάνουμε, απλώς απαγορεύουμε την κυκλοφορία ξανά και ξανά;
 
-###Σενάριο 3: Intermittent Lockdown
+###Σενάριο 3: Περιοδική Απαγόρευση Κυκλοφορίας
 
-Αυτή η λύση προτάθηκε αρχικά από την αναφορά της 16ης Μαρτίου του κολλεγίου Imperial, και αργότεραα από μία δημοσίευση του Harvard.[^lockdown_harvard]
+Αυτή η λύση προτάθηκε αρχικά από την αναφορά της 16ης Μαρτίου του κολλεγίου Imperial, και αργότεραα από μία δημοσίευση του Πανεπιστημίου του Harvard.[^lockdown_harvard]
 
-[^lockdown_harvard]: “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler and Tedijanto et al](https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
+[^lockdown_harvard]: “Απουσία άλλων παρεμβάσεων, ένας βασικός δείκτης της επιτυχίας της κοινωνικής απόστασης είναι το αν έχουν ξεπεραστεί οι απαιτήσεις σε αποθέματα ιατρικού εξοπλισμού και ιατρικού/νοσηλευτικού προσωπικού. Για να το αποφύγουμε αυτό, μπορεί να χρειαστεί παρατεταμένη ή περιοδική κοινωνική απόσταση έως το 2022.” [Kissler and Tedijanto et al](https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
-**Here's a simulation:** (After playing the "recorded scenario", you can try simulating your *own* lockdown schedule, by changing the sliders *while* the simulation is running! Remember you can pause & continue the sim, and change the simulation speed)
+**Ορίστε μια προσομοίωση:** (Μετά την αναπαραγωγή του "επίσημου σεναρίου", μπορείτε να δοκιμάσετε να προσομοιώσετε το *δικό σας* χρονοδιάγραμμα απαγόρευσης κυκλοφορίας, αλλάζοντας τις τιμές *καθώς* τρέχει η προσομοίωση! Θυμηθείτε ότι μπορείτε να διακόψετε και να συνεχίσετε την προσομοίωση, όπως επίσης και να αλλάξετε την ταχύτητά της)
 
 <div class="sim">
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-This *would* keep cases below ICU capacity! And it's *much* better than an 18-month lockdown until a vaccine is available. We just need to... shut down for a few months, open up for a few months, and repeat until a vaccine is available. (And if there's no vaccine, repeat until herd immunity is reached... in 2022.)
+Αυτό *όντως* θα διατηρούσε τα συνολικά κρούσματα κάτω από τη χωρητικότητα των ΜΕΘ! Και είναι *πολύ* καλύτερο από μια 18μηνη απαγόρευση κυκλοφορίας μέχρι να είναι διαθέσιμο ένα εμβόλιο. Πρέπει απλώς να.. βάλουμε λουκέτο για μερικούς μήνες, να ανοίξουμε για ακόμα μερικούς μήνες, και να επαναλάβουμε την ίδια διαδικασία μέχρι να είναι διαθέσιμο ένα εμβόλιο. (Και αν δε βρεθεί ποτέ εμβόλιο, μέχρι να επιτευχθεί ανοσία αγέλης… το 2022.)
 
-Look, it's nice to draw a line saying "ICU capacity", but there's lots of important things we *can't* simulate here. Like:
+Κοιτάξτε, είναι ωραίο να σχεδιάζουμε μια γραμμή που γράφει "χωρητικότητα ΜΕΘ", αλλά υπάρχουν πολλά σημαντικά πράγματα που *δεν μπορούμε* να προσομοιώσουμε εδώ. Για παράδειγμα:
 
-**Ψυχική Υγεία:** Loneliness is one of the biggest risk factors for depression, anxiety, and suicide. And it's as associated with an early death as smoking 15 cigarettes a day.[^loneliness]
+**Ψυχική Υγεία:** Η μοναξιά είναι ένας από τους μεγαλύτερους παράγοντες πρόκλησης κατάθλιψης, άγχους και αυτοκτονιών. Και σχετίζεται με πρόωρο θάνατο όσο το κάπνισμα 15 τσιγάρων την ημέρα.[^loneliness]
 
-[^loneliness]: See [Figure 6 from Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Of course, big disclaimer that they found a *correlation*. But unless you want to try randomly assigning people to be lonely for life, observational evidence is all you're gonna get.
+[^loneliness]: Βλέπε [Figure 6 from Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Φυσικά, να τονίσουμε ότι βρήκαν μία *συσχέτιση*. Αν δε θέλετε να αναθέσετε τυχαία σε ανθρώπους να μείνουν μόνοι τους μια ζωή, δε γίνεται να έχετε κάτι καλύτερο από παρατηρητικά στοιχεία.
 
-**Οινομική Υγεία:** "What about the economy" sounds like you care more about dollars than lives, but "the economy" isn't just stocks: it's people's ability to provide food & shelter for their loved ones, to invest in their kids' futures, and enjoy arts, foods, videogames – the stuff that makes life worth living. And besides, poverty *itself* has horrible impacts on mental and physical health.
+**Οικονομική Υγεία:** Το "τι θα γίνει με την οικονομία;" ακούγεται σα να ενδιαφερόμαστε περισσότερο για τα χρήματα από τις ανθρώπινες ζωές, αλλά η "οικονομία" δεν είναι μόνο οι μετοχές: είναι η δυνατότητα των ανθρώπων να παρέχουν τροφή και στέγη στους αγαπημένους τους, να επενδύουν στο μέλλον των παιδιών τους, και να απολαμβάνουν τέχνες, γεύματα, βιντεοπαιχνίδια – τα πράγματα που κάνουν τη ζωή να αξίζει. Εξάλλου, η φτώχεια *από μόνη της* έχει τρομερές επιπτώσεις στην ψυχική και σωματική υγεία.
 
-Not saying we *shouldn't* lock down again! We'll look at "circuit breaker" lockdowns later. Still, it's not ideal.
+Δε λέμε πως *δεν πρέπει* να απαγορεύσουμε ξανά την κυκλοφορία! Θα εξετάσουμε τις "περιοδικές" lockdowns later.απαγορεύσεις κυκλοφορίας αργότερα. Ωστόσο, δεν είναι ιδανικό.
 
-But wait... haven't Taiwan and South Korea *already* contained COVID-19? For 4 whole months, *without* long-term lockdowns?
+Αλλά μισό λεπτό... η Ταϊβάν και η Νότια Κορέα δεν έχουν *ήδη* περιορίσει την COVID-19; Για 4 ολόκληρους μήνες, *χωρίς* μακροχρόνιες απαγορεύσεις κυκλοφορίας?
 
-How?
+Πως?
 
-###Σενάριο 4: Τέστ, Ανίχνευση, Απομόνωση
+###Σενάριο 4: Τεστ, Ιχνηλάτηση, Απομόνωση
 
 *"Sure, we \*could've\* done what Taiwan & South Korea did at the start, but it's too late now. We missed the start."*
 
