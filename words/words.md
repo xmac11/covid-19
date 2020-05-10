@@ -43,7 +43,7 @@
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>The Last Few Months</div>
+        <div>Οι Τελευταίοι Μήνες</div>
     </div>
 </div>
 
@@ -51,13 +51,13 @@
 
 **Οι επιδημιολόγοι χρησιμοποιούν επιδημιολογικούς προσομοιωτές για να μάθουν πως να μην συντρίψουν την ανθρωπότητα.**
 
-Επομένως, ας κάνουμε έναν πολύ, *πολύ* απλό "επιδημιολογικό προσομοιωτή πτήσης"! Σε αυτή την προσομοιώση, <icon i></icon> ά άνθρωποι που έχουν ήδη προσβληθεί μπορούν να μετατρέψουν<icon s></icon> άτομα που είναι πιο ευαίσθητα στην μετάδοση <icon i></icon> σε νοσούντες:
+Επομένως, ας κάνουμε έναν πολύ, *πολύ* απλό "επιδημιολογικό προσομοιωτή πτήσης"! Σε αυτή την προσομοιώση, <icon i></icon> μεταδοτικοί ασθενείς μπορούν να μετατρέψουν<icon s></icon> ευάλωτα άτομα σε περισσότερους <icon i></icon> μεταδοτικούς ασθενείς:
 
 ![](pics/spread.png)
 
 Εκτιμάται ότι , *στην αρχή* της επιδημίας COVID-19 , ο ιός μεταδίδεται από ένα <icon i></icon> σε ένα <icon s></icon> κάθε 4 ημέρες, *κατά μέσο όρο*.[^serial_interval] (να θυμάστε, υπάρχει μεγάλη μεταβολή)
 
-[^serial_interval]: “Το μέσο [serial] διάστημα ήταν 3.96 ημέρες (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Σημείωση: Τα άρθρα πρώιμης έκδοσης δεν θεωρούνται τελικές εκδόσεις)
+[^serial_interval]: “Το μέσο [serial] διάστημα ήταν 3.96 ημέρες (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Σημείωση: Τα άρθρα πρώιμης έκδοσης δε θεωρούνται τελικές εκδόσεις)
 
 Αν προσομοιώσουμε "διπλασιάστε κάθε 4 ημέρες" *και τίποτα άλλο*, σε έναν πληθυσμό που ξεκινά με μόλις 0,001% <icon i></icon>, τι συμβαίνει;
 
@@ -418,57 +418,57 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 (Παραλήρημα σχετικά με τη σύγχυση ανάμεσα σε προ-συμπτωματικούς και "πραγματικά" ασυμπτωματικούς. Οι "πραγματικά" ασυμπτωματικοί είναι σπάνιοι:[^rant])
 
-[^rant]: Lots of news reports – and honestly, many research papers – did not distinguish between "cases who showed no symptoms when we tested them" (pre-symptomatic) and "cases who showed no symptoms *ever*" (true asymptomatic). The only way you could tell the difference is by following up with cases later.
+[^rant]: Πολλές ειδήσεις – και για να είμαστε ειλικρινείς, πολλές ερευνητικές εργασίες – δεν έκαναν διάκριση ανάμεσα σε "κρούσματα που δεν εμφάνισαν συμπτώματα όταν τους έγινε το τεστ" (προ-συμπτωματικά) και "κρούσματα που δεν εμφάνισαν *ποτέ* συμπτώματα" (πραγματικά ασυμπτωματικά). Ο μόνος τρόπος να τα ξεχωρίσουμε είναι να παρακολουθήσουμε πως εξελίχθηκαν μελλοντικά.
    
-    Which is what [this study](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) did. (Disclaimer: "Early release articles are not considered as final versions.") In a call center in South Korea that had a COVID-19 outbreak, "only 4 (1.9%) remained asymptomatic within 14 days of quarantine, and none of their household contacts acquired secondary infections."
+    Που είναι ακριβώς ό,τι έκανε [αυτή η μελέτη](https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article). (Σημείωση: "Τα άρθρα πρώιμης έκδοσης δε θεωρούνται τελικές εκδόσεις.") Σε τηλεφωνικό κέντρο στη Νότια Κορέα που παρουσιάστηκε έξαρση κρουσμάτων COVID-19, "μόνο 4 (1.9%) παρέμειναν ασυμπτωματικά κατά τη διάρκεια των 14 ημερών καραντίνας, και καμία από τις στενές οικογενειακές επαφές δε μολύνθηκε."
     
-    So that means "true asymptomatics" are rare, and catching the disease from a true asymptomatic may be even rarer!
+    Αυτό σημαίνει ότι τα "πραγματικά ασυμπτωματικά" κρούσματα είναι σπάνια, και το να κολλήσεις τη νόσο από ένα πραγματικά ασυμπτωματικό κρούσμα ενδεχομένως είναι ακόμα πιο σπάνιο!
 
-Isolating *symptomatic* cases would reduce R by up to 40%, and quarantining their *pre/a-symptomatic* contacts would reduce R by up to 50%[^oxford]:
+Η απομόνωση των *συμπτωματικών* κρουσμάτων θα ελάττωνε το R έως και 40%, και η απομόνωση των *προ/α-συμπτωματικών* επαφών τους θα ελάττωνε το R έως και 50%[^oxford]:
 
-[^oxford]: Από την ίδια μελέτη της Οξφόρδης όπου αρχικά προτείνεται η χρήση εφαρμογών για την καταπολέμηση της COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) See Εικόνα 2. Υποθέτοντας R<sub>0</sub> = 2.0, ανακάλυψαν ότι:    
+[^oxford]: Από την ίδια μελέτη της Οξφόρδης που πρότεινε για πρώτη φορά τη χρήση κινητών εφαρμογών για την καταπολέμηση της COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Βλ. Εικόνα 2. Υποθέτοντας R<sub>0</sub> = 2.0, ανακάλυψαν ότι:    
     
     * Συμπτωματικοί συνεισφέρουν R = 0.8 (40%)
     * Προ-συμπτωματικοί συνεισφέρουν R = 0.9 (45%)
     * Ασυμπτωματικοί συνεισφέρουν R = 0.1 (5%, αν και το μοντέλο τους έχει αβεβαιότητα και μπορεί να είναι αρκετά χαμηλότερο)
-    * Περιβαλλοντικές συνθήκες όπως για παράδειγμα τα πόμολα συνεισφέρουν R = 0.2 (10%)
+    * Αντικείμενα του ευρύτερου περιβάλλοντος, όπως για παράδειγμα τα πόμολα, συνεισφέρουν R = 0.2 (10%)
 
-    Αν προσθέσουμε τις επαφές των προ- και α-συμπτωματικών (45% + 5%) παίρνουμε το 50% του R!
+    Αν προσθέσουμε και τις επαφές των προ- και α-συμπτωματικών (45% + 5%) παίρνουμε το 50% του R!
 
 <div class="sim">
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
 </div>
 
-Thus, even without 100% contact quarantining, we can get R < 1 *without a lockdown!* Much better for our mental & financial health. (As for the cost to folks who have to self-isolate/quarantine, *governments should support them* – pay for the tests, job protection, subsidized paid leave, etc. Still way cheaper than intermittent lockdown.)
+Επομένως, ακόμα και χωρίς την απομόνωση του 100% των επαφών των κρουσμάτων, μπορούμε να πετύχουμε R < 1 *χωρίς απαγόρευση κυκλοφορίας!* Πολύ καλύτερο για την ψυχική και οικονομική μας υγεία. (Όσο για τα έξοδα των ανθρώπων που πρέπει να απομονωθούν/τεθούν σε καραντίνα, *οι κυβερνήσεις πρέπει να τους υποστηρίζουν* – να πληρώνουν το κόστος των τεστ, να προστατεύουν τη θέση εργασίας τους, να επιδοτούν άδεια μετ' αποδοχών, κ.τ.λ. Το κόστος παραμένει πολύ χαμηλότερο από τις περιοδικές απαγορεύσεις κυκλοφορίας.)
 
-We then keep R < 1 until we have a vaccine, which turns susceptible <icon s></icon>s into immune <icon r></icon>s. Herd immunity, the *right* way:
+Έπειτα διατηρούμε το R < 1 μέχρι να έχουμε κάποιο εμβόλιο, το οποίο μετατρέπει  τους ευάλωτους <icon s></icon> σε άνοσους <icon r></icon>. Η ανοσία της αγέλης, με το *σωστό* τρόπο:
 
 <div class="sim">
 		<iframe src="sim?stage=int-4b&format=calc" width="285" height="230"></iframe>
 </div>
 
-(Note: this calculator pretends the vaccines are 100% effective. Just remember that in reality, you'd have to compensate by vaccinating *more* than "herd immunity", to *actually* get herd immunity)
+(Σημείωση: σε αυτό το πρόγραμμα γίνεται η παραδοχή ότι τα εμβόλια είναι 100% αποτελεσματικά. Απλώς έχετε στο νου σας ότι στην πραγματικότητα θα έπρεπε να αντισταθμίσουμε τα αναποτελεσματικά εμβόλια εμβολιάζοντας *περισσότερους* από τον ελάχιστο αριθμό που θα οδηγούσε σε "ανοσία αγελής", για να πετύχουμε *όντως* ανοσία αγέλης)
 
-Ωραία, αρκετά είπαμε. Αυτή είναι μία προσομοίωση:
+Ωραία, αρκετά είπαμε. Αυτή είναι μία προσομοίωση για τα παρακάτω βήματα:
 
-1. A few-month lockdown, until we can...
-2. Switch to "Test, Trace, Isolate" until we can...
-3. Vaccinate enough people, which means...
-4. We win.
+1. Μερικοί μήνες απαγόρευσης κυκλοφορίας, έως ότου μπορέσουμε να κάνουμε...
+2. Αλλαγή σε "Τεστ, Ιχνηλάτηση, Απομόνωση", έως ότου είναι εφικτός ο...
+3. Εμβολιασμός αρκετών ανθρώπων, που σημαίνει...
+4. Κερδίσαμε.
 
 <div class="sim">
 		<iframe src="sim?stage=int-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-So that's it! That's how we make an emergency landing on this plane.
+Αυτό είναι! Έτσι κάνουμε αναγκαστική προσγείωση σε αυτό το αεροπλάνο.
 
-That's how we beat COVID-19.
+Έτσι νικάμε την COVID-19.
 
 ...
 
-But what if things *still* go wrong? Things have gone horribly wrong already. That's fear, and that's good! Fear gives us energy to create *backup plans*.
+Αλλά τι θα γίνει αν τα πράγματα *συνεχίσουν* να πηγαίνουν στραβά; Τα πράγματα έχουν πάει πολύ στραβά ήδη. Αυτός είναι ο φόβος, και είναι καλό που υπάρχει! Ο φόβος μας δίνει κίνητρο να δημιουργούμε *εφεδρικά σχέδια*.
 
-The pessimist invents the parachute.
+Ο απαισιόδοξος εφηύρε το αλεξίπτωτο.
 
 ###Σενάριο 4+: Μάσκες για όλους, Καλοκαίρι, Circuit Breakers
 
