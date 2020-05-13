@@ -470,55 +470,55 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 Ο απαισιόδοξος εφηύρε το αλεξίπτωτο.
 
-###Σενάριο 4+: Μάσκες για όλους, Καλοκαίρι, Circuit Breakers
+###Σενάριο 4+: Μάσκες για Όλους, Καλοκαίρι, Circuit Breakers
 
-What if R<sub>0</sub> is way higher than we thought, and the above interventions, even with mild distancing, *still* aren't enough to get R < 1?
+Κι αν όμως το R<sub>0</sub> είναι πολύ υψηλότερο απ' ότι νομίζαμε, και οι παραπάνω παρεμβάσεις, ακόμα και με ήπια κοινωνική απόσταση, *εξακολουθούν* να μην αρκούν για να πετύχουμε R < 1;
 
-Θυμηθείτε, even if we can't get R < 1, reducing R still reduces the "overshoot" in total cases, thus saving lives. But still, R < 1 is the ideal, so here's a few other ways to reduce R:
+Θυμηθείτε, ακόμα κι αν δεν μπορούμε να πετύχουμε R < 1, η ελάττωση του R εξακολουθεί να μειώνει την έξαρση των συνολικών κρουσμάτων, άρα σώζει ζωές. Όπως και να 'χει, το R < 1 είναι το ιδανικό, οπότε ας δούμε μερικούς ακόμα τρόπους να το ελαττώσουμε:
 
-**Μάσκες για όλους:**
+**Μάσκες για Όλους:**
 
-*"Περίμενες,"* ίσως αναρωτηθείς, *"Νόμιζα πως οι μάσκες δεν σε προστατεύουν από το να κολλήσεις;"*
+*"Περίμενε,"* ίσως αναρωτηθείς, *"νόμιζα πως οι μάσκες δε σε προστατεύουν από το να κολλήσεις;"*
 
-Έχει δίκιο. Οι μάσκες δεν σε προστατεύουν από το να κολλήσεις[^incoming]... προστατεύουν τους *άλλους* από το να κολλήσουν από εσένα.
+Έχεις δίκιο. Οι μάσκες δε σε προστατεύουν από το να κολλήσεις[^incoming]... σε εμποδίζουν να κολλήσεις *άλλους*.
 
-[^incoming]: “None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
+[^incoming]: “Καμία από αυτές τις χειρουργικές μάσκες δεν επέδειξε επαρκή αποδοτικότητα φίλτρου και προσαρμοστικότητα στο πρόσωπο ώστε να θεωρηθεί μέθοδος αναπνευστικής προστασίας.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
 
-[^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
+[^outgoing]: “Η συνολική μείωση κατά 3.4 φορές [70% μείωση] στους αριθμούς των αερολυμάτων  που παρατηρήσαμε, σε συνδυασμό με τη σχεδόν πλήρη εξάλειψη των μεγάλων σταγονιδίων που παρουσίασε ο Johnson et al. υποδηλώνει ότι οι χειρουργικές μάσκες που φοριούνται από μολυσμένα άτομα θα μπορούσαν να έχουν κλινικά σημαντική επίπτωση στη μετάδοση.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
 
-[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) See Table 1: a 100% cotton T-shirt has around 2/3 the filtration efficiency as a surgical mask, for the two bacterial aerosols they tested.
+[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Βλέπε Πίνακα 1: ένα 100% βαμβακερό μπλουζάκι έχει περίπου τα 2/3 της αποδοτικότητας φιλτραρίσματος μιας χειρουργικής μάσκας, για τα δύο βακτηριακά αερολύματα που εξετάστηκαν.
 
 ![](pics/masks.png)
 
-To put a number on it: surgical masks *on the sick person* reduce cold & flu viruses in aerosols by 70%.[^outgoing] Reducing transmissions by 70% would be as large an impact as a lockdown!
+Για να το δούμε και σε αριθμούς: οι χειρουργικές μάσκες που φοριούνται *από μεταδοτικούς ασθενείς* μειώνουν τους ιούς κρυολογήματος και γρίπης στα αερολύματα κατά 70%.[^outgoing] Η μείωση της διασποράς τέτοιων σταγονιδιών κατά 70% θα είχε τόσο μεγάλη επίδραση όσο μια απαγόρευση κυκλοφορίας!
 
-However, we don't know for sure the impact of masks on COVID-19 *specifically*. In science, one should only publish a finding if you're 95% sure of it. (...should.[^replication]) Masks, as of May 1st 2020, are less than "95% sure".
+Ωστόσο, δε γνωρίζουμε με βεβαιότητα την επίδραση των μασκών στην COVID-19 *συγκεκριμένα*. Στην επιστήμη θα έπρεπε να δημοσιεύει κανείς ένα εύρημα αν είναι 95% σίγουρος. (...θα έπρεπε.[^replication]) Όσον αφορά τις μάσκες, τουλάχιστον μέχρι την 1η Μαΐου 2020, είμαστε λιγότερο από "95% σίγουροι".
 
-[^replication]: Any actual scientist who read that last sentence is probably laugh-crying right now. See: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [the replication crisis](https://en.wikipedia.org/wiki/Replication_crisis))
+[^replication]: Κάθε επιστήμονας που διάβασε την τελευταία πρόταση πιθανότατα έχει σκάσει στα γέλια αυτή τη στιγμή. Βλέπε: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [the replication crisis](https://en.wikipedia.org/wiki/Replication_crisis))
 
-However, pandemics are like poker. **Make bets only when you're 95% sure, and you'll lose everything at stake.** As a recent article on masks in the British Medical Journal notes,[^precautionary] we *have* to make cost/benefit analyses under uncertainty. Like so:
+Όμως οι πανδημίες είναι σαν το πόκερ. **Αν ποντάρετε μόνο όταν είστε 95% σίγουροι, θα τα χάσετε όλα.** Όπως επισημαίνει ένα πρόσφατο άρθρο στο Βρετανικό Ιατρικό Περιοδικό (British Medical Journal),[^precautionary] *πρέπει* να κάνουμε ανάλυση κόστους-οφέλους κάτω από συνθήκες αβεβαιότητας:
 
-[^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
+[^precautionary]: “Ήρθε η ώρα να εφαρμόσουμε την αρχή της προφύλαξης” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Cost: If homemade cloth masks (which are ~2/3 as effective as surgical masks[^homemade]), super cheap. If surgical masks, more expensive but still pretty cheap.
+Κόστος: Οι χειροποίητες υφασμάτινες μάσκες (οι οποίες έχουν περίπου τα 2/3 της αποτελεσματικότητας των χειρουργικών μασκών[^homemade]), είναι πάμφθηνες. Οι χειρουργικές μάσκες είναι πιο ακριβές, αλλά δεν παύουν να είναι σχετικά φθηνές.
 
-Benefit: Even if it's a 50–50 chance of surgical masks reducing transmission by 0% or 70%, the average "expected value" is still 35%, same as a half-lockdown! So let's guess-timate that surgical masks reduce R by up to 35%, discounted for our uncertainty. (Again, you can challenge our assumptions by turning the sliders up/down)
+Όφελος: Ακόμα κι αν είναι 50–50 η πιθανότητα των χειρουργικών μασκών να μειώσουν τη μετάδοση κατά 0% ή 70%, η μέση "αναμενόμενη τιμή" είναι 35%, δηλαδή όσο μια ημι-απαγόρευση κυκλοφορίας! Ας υποθέσουμε λοιπόν ότι οι χειρουργικές μάσκες μειώνουν το R έως και 35%, για να είμαστε από την πλευρά της ασφάλειας. (Θυμίζουμε και πάλι ότι μπορείτε να ελέγξετε τις υποθέσεις μας αλλάζοντας τις τιμές των δεικτών)
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
 </div>
 
-(other arguments for/against masks:[^mask_args])
+(άλλα επιχειρήματα υπέρ/κατά των μασκών:[^mask_args])
 
-[^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.
+[^mask_args]: **"Πρέπει να εξοικονομήσουμε αποθέματα για τα νοσοκομεία."** *Συμφωνούμε απολύτως.* Αλλά αυτό είναι περισσότερο επιχείρημα για την αύξηση της παραγωγής μασκών, όχι για την κατανομή τους στο κοινό. Στο μεταξύ, μπορούμε να φτιάχνουμε υφασμάτινες μάσκες.
 
-   **"Είναι δύσκολο να φορεθούν σωστά."** It's also hard to wash your hands according to the WHO Guidelines – seriously, "Step 3) right palm over left dorsum"?! – but we still recommend handwashing, because imperfect is still better than nothing.
+   **"Είναι δύσκολο να φορεθούν σωστά."** Επίσης είναι δύσκολο να πλένετε τα χέρια σας σύμφωνα με τις οδηγίες του ΠΟΥ – δεν κάνουμε πλάκα, "Βήμα 3) Τρίβουμε την παλάμη του δεξιού χεριού πάνω στην ραχιαία επιφάνεια του αριστερού χεριού, βάζοντας τα δάκτυλα του δεξιού στα μεσοδακτύλια διαστήματα του αριστερού χεριού, και αντιστρόφως"?! – αλλά εξακολουθούμε να συνιστούμε το πλύσιμο των χεριών, γιατί το ατελές είναι καλύτερο από το τίποτα.
    
-   **"Θα κάνει τους ανθρώπους πιο απερίσκεπτους με το πλύσιμο των χεριών και τις αποστάσεις ασφαλείας."** Sure, and safety belts make people ignore stop signs, and flossing makes people eat rocks. But seriously, we'd argue the opposite: masks are a *constant physical reminder* to be careful – and in East Asia, masks are also a symbol of solidarity!
+   **"Θα κάνει τους ανθρώπους πιο απερίσκεπτους με το πλύσιμο των χεριών και τις αποστάσεις ασφαλείας."** Και οι ζώνες ασφαλείας κάνουν τους ανθρώπους να αγνοούν τα "στοπ", και το οδοντικό νήμα κάνει τους ανθρώπους να τρώνε πέτρες. Αλλά πέρα από την πλάκα, θα ισχυριζόμασταν το αντίθετο: οι μάσκες αποτελούν μια *συνεχή φυσική υπενθύμιση* να είμαστε προσεκτικοί – και στην Ανατολική Ασία, είναι επίσης σύμβολο αλληλεγγύης!
     
     
 
-Masks *alone* won't get R < 1. But if handwashing & "Test, Trace, Isolate" only gets us to R = 1.10, having just 1/3 of people wear masks would tip that over to R < 1, virus contained!
+Οι μάσκες *από μόνες τους* δε θα φέρουν R < 1. Αν όμως το πλύσιμο την χεριών και το σχέδιο "Τεστ, Ιχνηλάτηση, Απομόνωση" είναι αρκετά για πετύχουμε R = 1.10, έχοντας μόλις το 1/3 των ανθρώπων να φορούν μάσκες θα το έσπρωχνε σε R < 1, δηλαδή ο ιός έχει αναχαιτιστεί!
 
 **Καλοκαίρι:**
 
