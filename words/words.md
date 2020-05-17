@@ -168,7 +168,7 @@ Short for "Reproduction number". It's the *average* number of people an <icon i>
 
 Το R<sub>0</sub> για "την" εποχιακή γρίπη είναι περίπου 1.28[^r0_flu]. Αυτό σημαίνει ότι, στην *αρχή* μίας επιδημίας, κάθε <icon i></icon> μολύνει 1.28 άλλους *κατά μέσο όρο.* (Αν αυτό ακούγεται περίεργο που δεν είναι ένας ολόκληρος αριθμός, θυμήσου ότι η "μέση" μητέρα έχει 2.4 παιδιά. Αυτό δε σημαίνει ότι υπάρχουν μισά παιδιά.)
 
-[^r0_flu]: “Το μέση τιμή του R για την εποχική γρίπη ήταν 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
+[^r0_flu]: “Η μέση τιμή του R για την εποχική γρίπη ήταν 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
 Το R<sub>0</sub> για την COVID-19 εκτιμάται ότι είναι γύρω στο 2.2,[^r0_covid] ενώ μία *όχι-ακόμη-ολοκληρωμένη* μελέτη εκτιμάει ότι ήταν 5.7(!) στη Wuhan.[^r0_wuhan]
 
@@ -577,27 +577,27 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
     </div>
 </div>
 
-Κολλάς COVID-19, και αναρρώνεις. Ή κάνει το εμβόλιο της COVID-19. Όπως και να έχει, έχεις ανοσία τώρα ...
+Κολλάς COVID-19, και αναρρώνεις. Ή κάνεις το εμβόλιο για COVID-19. Όπως και να 'χει, έχεις ανοσία τώρα...
 
-...*για πόσο καιρό ;*
+...*για πόσο καιρό;*
 
-* η COVID-19 είναι στενά συνδεδεμένη με τον SARS, ο οποίος έδωσε στους επιζώντες αυτόυ 2 χρόνια ανοσίας.[^SARS immunity]
+* η COVID-19 είναι στενά συνδεδεμένη με τον SARS, ο οποίος έδωσε στους επιζώντες αυτού 2 χρόνια ανοσίας.[^SARS immunity]
 * Οι κορονοϊοί που προκαλούν "το" κοινό κρυολόγημα σου δίνουν 8 μήνες ανοσίας.[^cold immunity]
-* There's reports of folks recovering from COVID-19, then testing positive again, but it's unclear if these are false positives.[^unclear]
-* One *not-yet-peer-reviewed* study on monkeys showed immunity to the COVID-19 coronavirus for at least 28 days.[^monkeys]
+* Υπάρχουν αναφορές ανθρώπων που ανάρρωσαν από την COVID-19, και αργότερα βγήκαν ξανά θετικοί, αλλά δεν είναι ξεκάθαρο αν τα αποτελέσματα ήταν ψευδώς θετικά.[^unclear]
+* Μια *όχι ακόμα ομότιμα αξιολογημένη (peer-reviewed)* μελέτη σε πιθήκους έδειξε ανοσία στην COVID-19 για τουλάχιστον 28 ημέρες.[^monkeys]
 
-But for COVID-19 *in humans*, as of May 1st 2020, "how long" is the big unknown.
+Αλλά για την COVID-19 *σε ανθρώπους*, τουλάχιστον μέχρι την 1η Μαΐου 2020, το "για πόσο καιρό" παραμένει το μεγάλο ερώτημα.
 
-[^SARS immunity]: “SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure.” [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) "Sadly" we'll never know how long SARS immunity would have really lasted, since we eradicated it so quickly.
+[^SARS immunity]: “Τα αντισώματα για τον SARS συγκεκριμένα διατηρήθηκαν για 2 χρόνια κατά μέσο όρο [...] Επομένως, οι ασθενείς που ανάρρωσαν ενδέχεται να είναι επιρρεπείς σε επαναμόλυνση ≥3 χρόνια μετά την αρχική τους έκθεση.” [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) "Δυστυχώς" δε θα μάθουμε ποτέ πόσο θα διαρκούσε πραγματικά η ανοσία στον SARS, καθώς τον εξαλείψαμε τόσο γρήγορα.
 
-[^cold immunity]: “We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection.” [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
+[^cold immunity]: “Δε βρήκαμε καμία σημαντική διαφορά μεταξύ της πιθανότητας να βρεθεί κανείς θετικός τουλάχιστον μια φορά, και της πιθανότητας επανεμφάνισης  των βήτα-κορονοϊών  HKU1 και OC43 στις 34 εβδομάδες μετά την πρώτη λοίμωξη.” [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
 
-[^unclear]: “Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test.” [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
+[^unclear]: “Μόλις ένας άνθρωπος αναρρώσει από κάποιον ιό, τα ιικά σωματίδια τείνουν να παραμένουν για κάποιο χρονικό διάστημα. Αυτά δεν μπορούν να προκαλέσουν μολύνσεις, αλλά μπορούν να προκαλέσουν θετικό τεστ.” [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
 
-[^monkeys]: From [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Disclaimer: This article is a preprint and has not been certified by peer review (yet).* Also, to emphasize: they only tested re-infection 28 days later. 
+[^monkeys]: Από [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Σημείωση: Αυτό το άρθρο δεν είναι (ακόμα) ομότιμα αξιολογημένο (peer-reviewed).* Επίσης, για να το τονίσουμε: Έκαναν το τεστ για επαναμόλυνση μόνο μετά από 28 ημέρες. 
 
-For these simulations, let's say it's 1 year.
-**Here's a simulation starting with 100% <icon r></icon>**, exponentially decaying into susceptible, no-immunity <icon s></icon>s after 1 year, on *average*, with variation:
+Για αυτές τις προσομοιώσεις, ας πούμε 1 χρόνο.
+**Ακολουθεί μια προσομοίωση που ξεκινά με 100% <icon r></icon>**, οι οποίοι φθίνουν εκθετικά σε ευάλωτους, χωρίς ανοσία <icon s></icon> μετά από 1 χρόνο, *κατά μέσο όρο*:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-1&format=lines&height=600" width="800" height="600"></iframe>
