@@ -603,43 +603,43 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 		<iframe src="sim?stage=yrs-1&format=lines&height=600" width="800" height="600"></iframe>
 </div>
 
-Return of the exponential decay!
+Η επιστροφή της εκθετικής μείωσης!
 
-This is the **SEIRS Model**. The final "S" stands for <icon s></icon> Susceptible, again.
+Αυτό είναι το **Μοντέλο SEIRS**. Το τελευταίο "S" σημαίνει <icon s></icon> Susceptible (Ευάλωτος), και πάλι.
 
 ![](pics/seirs.png)
 
-Now, let's simulate a COVID-19 outbreak, over 10 years, with no interventions... *if immunity only lasts a year:*
+Τώρα, ας προσομοιώσουμε ένα ξέσπασμα της COVID-19, για διάστημα 10 χρόνων, χωρίς καθόλου παρεμβάσεις... *εάν η ανοσία διαρκεί μόνο 1 χρόνο:*
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-2&format=lines&height=600" width="800" height="600"></iframe>
 </div>
 
-In previous simulations, we only had *one* ICU-overwhelming spike. Now, we have several, *and* <icon i></icon> cases come to a rest *permanently at* ICU capacity. (Which, remember, we *tripled* for these simulations)
+Σε προηγούμενες προσομοιώσεις, είχαμε μόνο *ένα* ακρότατο στις καμπύλες το οποίο ξεπερνούσε τη χωρητικότητα των ΜΕΘ. Τώρα έχουμε αρκετά, *και* τα <icon i></icon> κρούσματα σταθεροποιούνται *μόνιμα* στο όριο της χωρητικότητας των ΜΕΘ. (Την οποία, θυμηθείτε, *τριπλασιάσαμε* για αυτές τις προσομοιώσεις)
 
-R = 1, it's **endemic.**
+R = 1, πρόκειται για **ενδημία.**
 
-Thankfully, because summer reduces R, it'll make the situation better:
+Ευτυχώς, επειδή το καλοκαίρι μειώνει το R, θα βελτιώσει την κατάσταση:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-3&format=lines&height=640" width="800" height="640"></iframe>
 </div>
 
-Oh.
+Ωχ.
 
-Counterintuitively, summer makes the spikes worse *and* regular! This is because summer reduces new <icon i></icon>s, but that in turn reduces new immune <icon r></icon>s. Which means immunity plummets in the summer, *creating* large regular spikes in the winter.
+Αντίθετα με τη διαίσθησή μας, το καλοκαίρι κάνει τα ακρότατα χειρότερα *και* πιο τακτικά! Αυτό διότι το καλοκαίρι μειώνει τα νέα <icon i></icon> κρούσματα, αλλά αυτό με τη σειρά του μειώνει τους νέους ανοσοποιημένους <icon r></icon>. Αυτό σημαίνει ότι η ανοσία κατρακυλά το καλοκαίρι, *δημιουργώντας* μεγάλα και τακτικά ακρότατα το χειμώνα.
 
-Thankfully, the solution to this is pretty straightforward – just vaccinate people every fall/winter, like we do with flu shots:
+Ευτυχώς, η λύση σε αυτό είναι αρκετά απλή – απλώς εμβολιάζουμε τους ανθρώπους κάθε φθινόπωρο/χειμώνα, όπως κάνουμε με το εμβόλιο της γρίπης:
 
-**(After playing the recording, try simulating your own vaccination campaigns! Remember you can pause/continue the sim at any time)**
+**(Αφού δείτε την προσομοίωση, προσπαθήστε να προσομοιώσετε τη δική σας καμπάνια εμβολιασμού! Θυμηθείτε ότι μπορείτε να διακόψετε/συνεχίσετε την προσομοίωση οποιαδήποτε στιγμή)**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-But here's the scarier question:
+Αλλά εδώ είναι η πιο τρομακτική ερώτηση:
 
-What if there's no vaccine for *years*? Or *ever?*
+Τί θα γίνει αν δε βρεθεί εμβόλιο *για χρόνια*; Ή και *ποτέ*;
 
 **To be clear: this is unlikely.** Most epidemiologists expect a vaccine in 1 to 2 years. Sure, there's never been a vaccine for any of the other coronaviruses before, but that's because SARS was eradicated quickly, and "the" common cold wasn't worth the investment. 
 
@@ -696,7 +696,7 @@ Maybe you'd like to challenge our assumptions, and try different R<sub>0</sub>'s
 
 ![](pics/plan.png)
 
-Τι σημαίνει λοιπόν αυτό για ΣΕΝΑ, τώρα;
+Τί σημαίνει λοιπόν αυτό για ΕΣΕΝΑ, τώρα;
 
 **Για όλους:** Σεβαστείτε το lockdown ώστε να φύγουμε από την Φάση I το συντομότερο δυνατόν. Πλένετε τα χέρια σας. Φτιάξτε τις δικές σας μάσκες. Κατεβάστε μία *σεβομένη-προσωπικά δεδομένα* εφαρμογή ανίχνεσης επαφών όταν αυτές είναι διαθέσιμες τον επόμενο μήνα. Μείνετε υγιείς, σωματικά και ψυχικά! Γράψτε στους πολιτικούς να ξεκολλήσουν από τις καρέκλες τους και ...
 
