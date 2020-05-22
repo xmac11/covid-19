@@ -1,5 +1,4 @@
-[Play it here!](https://ncase.me/covid-19/)
-
+[Play it here! (English version)](https://ncase.me/covid-19/)  
 # How To Translate
 
 **NOTE: I'm still editing some stuff! Words will be finalized-ish on May 4th.
@@ -36,7 +35,7 @@ and copy-paste that into the `<article></article>` part of `index.html`.
 
 - [ ] Translate the thumbnail `sharing/thumbnail.png`
 
-- [ ] Step 4)
+- [X] Step 4)
 
 Use Github Pages to put your forked translation live on the interweb!
 
@@ -53,7 +52,3 @@ Wait for me to get off my lazy butt & accept the Pull Request (within \~72 hours
 
 - [ ] 🎉 Party! Your translation should now be linked to from the main page.
 (Remember to close your Github Issue!)
-
-[Greek translation](https://github.com/ncase/covid-19/issues/28)
-
- [`words/words.md`](https://github.com/estamos/covid-19/blob/master/words/words.md) 231-333 by [@xmac11](https://github.com/xmac11) 03-05-20
