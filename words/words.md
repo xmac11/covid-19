@@ -2,10 +2,10 @@
     <div>
     	<iframe id="splash" width="960" height="480" src="banners/splash.html"></iframe>
         <div style="top: 70px;font-size: 75px;font-weight: bold;">
-        	Τί συμβαίνει μετά;
+        	Και τώρα τι;
        	</div>
-		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			Το μέλλον του COVID-19, Επεξήγηση μέσα από διαδραστικές προσομοιώσεις
+		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 25px;">
+			Το μέλλον της COVID-19, Επεξήγηση μέσα από διαδραστικές προσομοιώσεις
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
@@ -61,7 +61,7 @@
 
 Αν προσομοιώσουμε το "διπλασιασμός κάθε 4 ημέρες" *και τίποτα άλλο*, σε έναν πληθυσμό που ξεκινά με μόλις 0.001% <icon i></icon>, τί θα συμβεί;
 
-**Πάτησε "Ξεκίνα" για να ξεκινήσεις την αναπαραγωγή της προσομοίωσης! Μπορείς να την αναπαράγεις ξανά με διαφορετικές ρυθμίσεις:** (τεχνικές προειδοποιήσεις: [^caveats])
+**Πάτησε "Ξεκίνα" για να ξεκινήσεις την αναπαραγωγή της προσομοίωσης! Μπορείς να την αναπαράγεις ξανά με διαφορετικές ρυθμίσεις:** (τεχνικές παραδοχές: [^caveats])
 
 [^caveats]: **Θυμηθείτε: όλες αυτές οι προσομοιώσεις είναι εξαιρετικά απλοποιημένες, για εκπαιδευτικούς σκοπούς.**
     
@@ -119,68 +119,68 @@
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 </div>
 
-And *that's* where that famous curve comes from! It's not a bell curve, it's not even a "log-normal" curve. It has no name. But you've seen it a zillion times, and beseeched to flatten.
+Από *αυτά* προέρχεται η περίφημη καμπύλη! Δεν έχει κανονική κατανομή, ούτε καν λογαριθμική κανονική κατανομή. Δεν έχει όνομα. Αλλά την έχεις δει εκατομμύρια φορές και παρακάλεσες να ισιώσει.
 
-This is the the **SIR Model**,[^sir]    
-(<icon s></icon>**S**usceptible <icon i></icon>**I**nfectious <icon r></icon>**R**ecovered)      
-the *second*-most important idea in Epidemiology 101:
+Αυτό είναι το **Μοντέλο ΕΜΑ** (SIR Model),[^sir]    
+(<icon s></icon>**Ε**πιρρεπής <icon i></icon>**Μ**ολυσματικός <icon r></icon>**Α**ναρρωμένος)      
+η *δεύτερη* πιο σημαντική ιδέα στην Επιδημιολογία 101:
 
-[^sir]: For more technical explanations of the SIR Model, see [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model)
+[^sir]: Για περισσότερο τεχνικές εξηγήσεις του Μοντέλου ΕΜΑ (SIR), δείτε [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) και [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model)
 
 ![](pics/sir.png)
 
-**ΣΗΜΕΙΩΣΗ: The simulations that inform policy are way, *way* more sophisticated than this!** Αλλά το SIR μοντέλο μπορεί να εξηγήσει τα ίδια γενικά ευρήματα, ακάμα και αν λείπουν οι αποχρώσεις.
+**ΣΗΜΕΙΩΣΗ: Οι προσομοιώσεις που καθορίζουν τις πολιτικές αποφάσεις είναι πολύ, *πολύ* περισσότερο προηγμένες από αυτή!** Αλλά το Μοντέλο ΕΜΑ (SIR) μπορεί να εξηγήσει τα ίδια γενικά ευρήματα, ακόμα και αν λείπουν οι ακριβείς λεπτομέρειες.
 
-Actually, let's add one more nuance: before an <icon s></icon> becomes an <icon i></icon>, they first become <icon e></icon> Exposed. This is when they have the virus but can't pass it on yet – infect*ed* but not yet infect*ious*.
+Βασικά, ας προσθέσουμε ακόμα μία λεπτομέρεια: προτού ένας <icon s></icon> γίνει <icon i></icon>, πρώτα γίνεται <icon e></icon> μολυσμένος. Αυτό είναι όταν έχουν τον ιό αλλά δεν μπορούν να τον μεταδώσουν ακόμα – μολυσμ*ένος* αλλά όχι ακόμα μολυσμ*ατικός*.
 
 ![](pics/seir.png)
 
-(This variant is called the **SEIR Model**[^seir], where the "E" stands for <icon e></icon> "Exposed". Note this *isn't* the everyday meaning of "exposed", when you may or may not have the virus. In this technical definition, "Exposed" means you definitely have it. Science terminology is bad.)
+(Αυτή η παραλλαγή ονομάζεται το **Μοντέλο ΕΜΜΑ** (SEIR Model)[^seir], όπου το πρώτο "Μ" σημαίνει <icon e></icon> "Μολυσμένος".)
 
-[^seir]: For more technical explanations of the SEIR Model, see [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SEIR_model)
+[^seir]: Για περισσότερο τεχνικές εξηγήσεις του Μοντέλου ΕΜΜΑ (SEIR), δείτε [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) και [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SEIR_model)
 
-For COVID-19, it's estimated that you're <icon e></icon> infected-but-not-yet-infectious for 3 days, *on average*.[^latent] What happens if we add that to the simulation?
+Για την COVID-19, εκτιμάται ότι είσαι <icon e></icon> μολυσμένος-αλλά-όχι-ακόμα-μολυσματικός για 3 ημέρες, *κατά μέσο όρο*.[^latent] Τί θα συμβεί αν το προσθέσουμε στην προσομοίωση;
 
-[^latent]: “Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset” (translation: Assuming symptoms start at 5 days, infectiousness starts 2 days before = Infectiousness starts at 3 days) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: “Υποθέτοντας μία κατανομή περιόδου επώασης κατά μέσο όρο 5.2 ημερών από μία ξεχωριστή μελέτη των πρώτων κρουσμάτων COVID-19, συμπεραίναμε ότι η μολυσματικότητα ξεκίνησε 2.3 ημέρες (95% CI, 0.8–3.0 ημέρες) πριν την εμφάνιση συμπτωμάτων” (σε απλά ελληνικά: Υποθέτοντας ότι τα συμπτώματα εμφανίζονται μετά από 5 ημέρες, η μολυσματικότητα ξεκινά 2 ημέρες πριν = Η μολυσματικότητα ξεκινά μετά από 3 ημέρες) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
-<b style='color:#ff4040'>Red <b style='color:#FF9393'>+ Pink</b> curve</b> is *current* cases (infectious <icon i></icon> + exposed <icon e></icon>),    
-<b style='color:#888'>Gray curve</b> is *total* cases (current + recovered <icon r></icon>):
+Η <b style='color:#ff4040'>Κόκκινη <b style='color:#FF9393'>+ Ροζ</b> καμπύλη</b> παριστάνουν τα *ενεργά* κρούσματα (μολυσματικοί <icon i></icon> + μολυσμένοι <icon e></icon>),    
+Η <b style='color:#888'>Γκρι καμπύλη</b> παριστάνει τα *συνολικά* κρούσματα (ενεργά + αναρρωμένα <icon r></icon>):
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-Not much changes! How long you stay <icon e></icon> Exposed changes the ratio of <icon e></icon>-to-<icon i></icon>, and *when* current cases peak... but the *height* of that peak, and total cases in the end, stays the same.
+Όχι μεγάλες αλλαγές! Το πόσο καιρό παραμένεις <icon e></icon> μολυσμένος μεταβάλλει την αναλογία <icon e></icon> / <icon i></icon>, καθώς και το *πότε* ο αριθμός των ενεργών κρουσμάτων μεγιστοποιείται... αλλά η *τιμή* αυτού του μέγιστου, και ο συνολικός αριθμός κρουσμάτων στο τέλος, παραμένουν ίδια.
 
-Why's that? Because of the *first*-most important idea in Epidemiology 101:
+Γιατί συμβαίνει αυτό; Λόγω της *πρώτης* πιο σημαντικής ιδέας στην Επιδημιολογία 101:
 
 ![](pics/r.png)
 
-Short for "Reproduction number". It's the *average* number of people an <icon i></icon> infects *before* they recover (or die).
+Συμβολίζει το "Βασικό Αριθμό Αναπαραγωγής" (Reproduction number). Είναι ο *μέσος* αριθμός ανθρώπων που μολύνει ένας <icon i></icon> *πριν* αναρρώσει (ή πεθάνει).
 
 ![](pics/r2.png)
 
-**R** changes over the course of an outbreak, as we get more immunity & interventions.
+Το **R** μεταβάλλεται κατά τη διάρκεια μιας επιδημίας, καθώς αποκτάμε περισσότερη ανοσία και λαμβάνονται μέτρα.
 
-**R<sub>0</sub>** (pronounced R-nought) is what R is *at the start of an outbreak, before immunity or interventions*. R<sub>0</sub> more closely reflects the power of the virus itself, but it still changes from place to place. For example, R<sub>0</sub> is higher in dense cities than sparse rural areas.
+Το **R<sub>0</sub>** (προφέρεται ρ-μηδέν) είναι η τιμή του R *στην αρχή της πανδημίας, πριν την ανοσία και τα μέτρα*. Το R<sub>0</sub> αντικατοπτρίζει περισσότερο τη δύναμη του ιού, αλλά εξακολουθεί να διαφέρει από περιοχή σε περιοχή. Για παράδειγμα, το R<sub>0</sub> είναι υψηλότερο σε πυκνοκατοικημένες πόλεις απ' ότι σε περιοχές της υπαίθρου.
 
-(Most news articles – and even some research papers! – confuse R and R<sub>0</sub>. Again, science terminology is bad)
+(Τα περισσότερα άρθρα ειδήσεων – ακόμα και μερικές ερευνητικές εργασίες! – συγχέουν το R και το R<sub>0</sub>.)
 
-Το R<sub>0</sub> για "την" εποχιακή γρίπη είναι περίπου 1.28[^r0_flu]. Αυτό σημαίνει ότι, στην *αρχή* μίας επιδημίας, κάθε <icon i></icon> μολύνει 1.28 άλλους *κατά μέσο όρο.* (Αν αυτό ακούγεται περίεργο που δεν είναι ένας ολόκληρος αριθμός, θυμήσου ότι η "μέση" μητέρα έχει 2.4 παιδιά. Αυτό δε σημαίνει ότι υπάρχουν μισά παιδιά.)
+Το R<sub>0</sub> για "την" εποχική γρίπη είναι περίπου 1.28[^r0_flu]. Αυτό σημαίνει ότι, στην *αρχή* μίας επιδημίας, κάθε <icon i></icon> μολύνει 1.28 άλλους ανθρώπους, *κατά μέσο όρο.* (Αν σας φαίνεται περίεργο που δεν είναι ολόκληρος αριθμός, θυμηθείτε ότι η "μέση" μητέρα έχει 2.4 παιδιά. Αυτό δε σημαίνει ότι υπάρχουν μισά παιδιά.)
 
 [^r0_flu]: “Η μέση τιμή του R για την εποχική γρίπη ήταν 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
-Το R<sub>0</sub> για την COVID-19 εκτιμάται ότι είναι γύρω στο 2.2,[^r0_covid] ενώ μία *όχι-ακόμη-ολοκληρωμένη* μελέτη εκτιμάει ότι ήταν 5.7(!) στη Wuhan.[^r0_wuhan]
+Το R<sub>0</sub> για την COVID-19 εκτιμάται ότι περίπου στο 2.2,[^r0_covid] ενώ μία *όχι-ακόμη-ολοκληρωμένη* μελέτη εκτιμά ότι ήταν 5.7(!) στη Γουχάν.[^r0_wuhan]
 
-[^r0_covid]: “We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Εκτιμήσαμε ότι το R0 του 2019-nCoV ήταν περίπου 2.2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “Υπολογίσαμε μια μέση τιμή R0 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-In our simulations – *at the start & on average* – an <icon i></icon> infects someone every 4 days, over 10 days. "4 days" goes into "10 days" two-and-a-half times. This means – *at the start & on average* – each <icon i></icon> infects 2.5 others. Therefore, R<sub>0</sub> = 2.5. (caveats:[^r0_caveats_sim])
+Στις προσομοιώσεις μας – *στην αρχή και κατά μέσο όρο* – ένας <icon i></icon> μολύνει κάποιον άλλο άνθρωπο κάθε 4 ημέρες, για διάστημα 10 ημερών. Οι "4 ημέρες" χωράνε στις "10 ημέρες" 2.5 φορές. Αυτό σημαίνει ότι – *στην αρχή και κατά μέσο όρο* – κάθε <icon i></icon> μολύνει 2.5 άλλους ανθρώπους. Επομένως, R<sub>0</sub> = 2.5. (παραδοχές:[^r0_caveats_sim])
 
-[^r0_caveats_sim]: This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.
+[^r0_caveats_sim]: Αυτό υποθέτει ότι είσαι εξίσου μεταδοτικός καθ όλη τη διάρκεια της "μολυσματικής περιόδου". Επαναλαμβάνουμε, απλουστεύσεις για εκπαιδευτικούς σκοπούς.
 
-**Play with this R<sub>0</sub> calculator, για να δεις πω το R<sub>0</sub> εξαρτάται από τον χρόνο ανάκαμψης και τον νέο χρόνο μόλυνσης:**
+**Παίξτε με αυτόν τον υπολογιστή R<sub>0</sub>, για να δείτε πως το R<sub>0</sub> εξαρτάται από το χρόνο ανάρρωσης και το χρόνο πρόκλησης νέων μολύνσεων:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
@@ -266,7 +266,7 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 Ακόμα και αν μόνο το 0.5% των νοσούντων πεθάνει – μία αισιόδοξη υπόθεση όταν δε θα υπάρχουν άλλες κλίνες ΜΕΘ – σε μια μεγάλη χώρα όπως οι ΗΠΑ, με 300 εκατομμύρια ανθρώπους, το 0.5% του 80% των 300 εκατομμυρίων = 1.2 εκατομμύρια νερκοί... *ΑΝ δεν κάναμε τίποτα.*
 
-(Πολλές ειδήσεις & μέσα κοινωνικής δικτύωσης ανέφεραν ότι "το 80% θα μολυνθεί" *παραλείποντας* το "ΑΝ ΔΕΝ ΚΑΝΟΥΜΕ ΤΙΠΟΤΑ". Ο φόβος διοχετεύτηκε σε κλικ ειδήσεων, και όχι στην κατανόηση της κατάστασης. *Αναστεναγμός.*)
+(Πολλές ειδήσεις & μέσα κοινωνικής δικτύωσης ανέφεραν ότι "το 80% θα μολυνθεί" *παραλείποντας* το "ΑΝ ΔΕΝ ΚΑΝΟΥΜΕ ΤΙΠΟΤΑ". Ο φόβος διοχετεύτηκε σε κλικ ειδήσεων, και όχι στην κατανόηση της κατάστασης. *Τι να πεις...*)
 
 ###Σενάριο 1: Επιπέδωση της Καμπύλης / Ανοσία της Αγέλης
 
@@ -302,7 +302,7 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 Τρεις παρατηρήσεις:
 
-1. Αυτό *ελαττώνει* το συνολικό αριθμό κρουσμάτων! **Ακόμα και αν δεν πετύχουμε R < 1, η μείωση του συντελεστή R εξακολουθεί να σώζει ζωές, ελαττώνοντας την 'υπέρβαση' πάνω από το όριο ανοσίας της αγέλης.** Πολλοί πιστεύουν ότι η "Επιπέδωση της Καμπύλης" απλώνει χρονικά τα κρούσματα χωρίς να ελαττώνει το συνολικό αριθμό. Αυτό είναι αδύνατο σε *οποιοδήποτε* μοντέλο Επιδημιολογίας 101. Αλλά επειδή οι ειδήσεις παρουσίασαν ως αναπόφευκτο το γεγονός ότι "το 80%+ θα μολυνθεί", ο κόσμος πίστεψε ότι ο συνολικός αριθμός κρουσμάτων θα είναι ο ίδιος ό,τι κι αν κάνουμε. *Αναστεναγμός.*
+1. Αυτό *ελαττώνει* το συνολικό αριθμό κρουσμάτων! **Ακόμα και αν δεν πετύχουμε R < 1, η μείωση του συντελεστή R εξακολουθεί να σώζει ζωές, ελαττώνοντας την 'υπέρβαση' πάνω από το όριο ανοσίας της αγέλης.** Πολλοί πιστεύουν ότι η "Επιπέδωση της Καμπύλης" απλώνει χρονικά τα κρούσματα χωρίς να ελαττώνει το συνολικό αριθμό. Αυτό είναι αδύνατο σε *οποιοδήποτε* μοντέλο Επιδημιολογίας 101. Αλλά επειδή οι ειδήσεις παρουσίασαν ως αναπόφευκτο το γεγονός ότι "το 80%+ θα μολυνθεί", ο κόσμος πίστεψε ότι ο συνολικός αριθμός κρουσμάτων θα είναι ο ίδιος ό,τι κι αν κάνουμε. *Τι να πεις...*
 
 2. Λόγω των επιπλέον παρεμβάσεων, ο αριθμός των ενεργών κρουσμάτων κορυφώνεται *πριν* επιτευχθεί η ανοσία της αγέλης. Πράγματι, σε αυτή την προσομοίωση, ο συνολικός αριθμός κρουσμάτων  υπερβαίνει *ελάχιστα* το όριο ανοσίας της αγέλης – το σχέδιο του Ηνωμένου Βασιλείου! Σε αυτό το σημείο, R < 1, μπορείτε να αφήσετε όλες τις άλλες παρεμβάσεις – η νόσος COVID-19 έχει αναχαιτιστεί! Εκτός από ένα πρόβλημα...
 
@@ -366,7 +366,7 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 Για να καταλάβουμε πώς η Ταϊβάν και η Νότια Κορέα περιόρισαν την COVID-19, πρέπει να καταλάβουμε το ακριβές χρονολόγιο μιας τυπικής μόλυνσης από COVID-19[^timeline]:
 
-[^timeline]: **3 ημέρες κατά μέσο όρο έως τη μολυσματικότητα:** “Υποθέτοντας μία κατανομή περιόδου επώασης κατά μέσο όρο 5.2 ημερών από μία ξεχωριστή μελέτη των πρώτων κρουσμάτων COVID-19, συμπεραίναμε ότι η μολυσματικότητα ξεκίνησε 2.3 ημέρες (95% CI, 0.8–3.0 ημέρες) πριν την εμφάνιση συμπτωμάτων” (σε απλά ελληνικά: Υποθέτοντας ότι τα συμπτώματα εμφανίζονται μετά από 5 ημέρες, η μολυσματικότητα ξεκινά 2 ημέρες πριν = Η μολυσματικότητα ξεκινά μετά από 3 ημέρες) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)  
+[^timeline]: **3 ημέρες κατά μέσο όρο έως τη μολυσματικότητα:** “Υποθέτοντας μία κατανομή περιόδου επώασης κατά μέσο όρο 5.2 ημερών, από μία ξεχωριστή μελέτη των πρώτων κρουσμάτων COVID-19, συμπεραίναμε ότι η μολυσματικότητα ξεκίνησε 2.3 ημέρες (95% CI, 0.8–3.0 ημέρες) πριν την εμφάνιση συμπτωμάτων” (σε απλά ελληνικά: Υποθέτοντας ότι τα συμπτώματα εμφανίζονται μετά από 5 ημέρες, η μολυσματικότητα ξεκινά 2 ημέρες πριν = Η μολυσματικότητα ξεκινά μετά από 3 ημέρες) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)  
     
     **4 ημέρες κατά μέσο όρο για τη μόλυνση κάποιου άλλου:** “Το μέσο [σειριακό] διάστημα ήταν 3.96 ημέρες (95% CI 3.53–4.39 ημέρες)” [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
     
@@ -478,7 +478,7 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 
 **Μάσκες για Όλους:**
 
-*"Περίμενε,"* ίσως αναρωτηθείς, *"νόμιζα πως οι μάσκες δε σε προστατεύουν από το να κολλήσεις;"*
+*"Περίμενε,"* ίσως αναρωτηθείς, *"νόμιζα πως οι μάσκες δε σε προστατεύουν από το να κολλήσεις."*
 
 Έχεις δίκιο. Οι μάσκες δε σε προστατεύουν από το να κολλήσεις[^incoming]... σε εμποδίζουν να κολλήσεις *άλλους*.
 
@@ -558,7 +558,7 @@ Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, an
 * [Αντικατάσταση της χειραψίας με χτύπημα των ποδιών](https://twitter.com/V_actually/status/1233785527788285953)
 * Και οτιδήποτε άλλο σκαρφιστεί ο ανθρώπινος νους
 
-. . .
+...
 
 Ελπίζουμε αυτά τα σχέδια να σας δώσουν ελπίδα. 
 
@@ -665,7 +665,7 @@ R = 1, πρόκειται για **ενδημία.**
 
 Ακόμα και στο *χειρότερο* χειρότερο-σενάριο... η ζωή θριαμβεύει.
 
-. . .
+...
 
 Ίσως θα θέλατε να αμφισβητήσετε τις υποθέσεις μας και να δοκιμάσετε διαφορετικά R<sub>0</sub> ή τιμές. Ή να προσπαθήσετε να προσομοιώσετε το *δικό* σας συνδυασμό παρεμβάσεων!
 
@@ -702,7 +702,7 @@ R = 1, πρόκειται για **ενδημία.**
 
 **Για τους πολιτικούς:** Φτιάξτε νόμους για να υποστηρίξετε τους ανθρώπους που πρέπει να απομονωθούν/τεθούν σε καραντίνα. Προσλάβετε περισσότερα άτομα για τη χειροκίνητη  ιχνηλάτηση επαφών, *υποστηριζόμενα* από ανώνυμες εφαρμογές ιχνηλάτησης επαφών. Διαθέστε περισσότερα χρήματα στα πράγματα που πρέπει να χτίσουμε, όπως...
 
-**Για δημιουργούς:** Φτιάξτε τεστ. Φτιάξτε αναπνευστήρες. Φτιάξτε εξοπλισμό ατομικής προστασίας για τα νοσοκομεία. Φτιάξτε τεστ. Φτιάξτε μάσκες. Φτιάξτε εφαρμογές. Δημιουργήστε αντιιικά φάρμακα και άλλες θεραπείες. Φτιάξτε εμβόλια. Φτιάξτε τεστ. Φτιάξτε τεστ. Φτιάξτε τεστ. Δημιουργήστε ελπίδα. 
+**Για τους δημιουργούς:** Φτιάξτε τεστ. Φτιάξτε αναπνευστήρες. Φτιάξτε εξοπλισμό ατομικής προστασίας για τα νοσοκομεία. Φτιάξτε τεστ. Φτιάξτε μάσκες. Φτιάξτε εφαρμογές. Δημιουργήστε αντιιικά φάρμακα και άλλες θεραπείες. Φτιάξτε εμβόλια. Φτιάξτε τεστ. Φτιάξτε τεστ. Φτιάξτε τεστ. Δημιουργήστε ελπίδα. 
 
 Μην υποβαθμίζετε τον φόβο για να δημιουργήσετε ελπίδα. Ο φόβος μας πρέπει να *ενώσει τις δυνάμεις του* με την ελπίδα μας, όπως οι εφευρέτες των αεροπλάνων και των αλεξίπτωτων. Η προετοιμασία για ένα φρικτό μέλλον είναι ο τρόπος για να δημιουργήσουμε ένα ελπιδοφόρο μέλλον.
 
