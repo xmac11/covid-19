@@ -25,7 +25,7 @@ announcing that you're translating for that language!
 
 - [ ] Step 3)
 
-- [ ] Translate `words.md`, (6000 words) then export it to html– make sure your Markdown app supports footnotes –
+- [X] Translate `words.md`, (6000 words) then export it to html– make sure your Markdown app supports footnotes –
 and copy-paste that into the `<article></article>` part of `index.html`.
 
 - [ ] Translate the `<head>`, sidebars, & footer of `index.html` (200 words)
