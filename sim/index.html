@@ -44,7 +44,7 @@
 					
 					<div id="label_c_waning">
 						<input class="sim_checkbox" type="checkbox" id="c_waning">
-						Χάνει ανοσία <icon s></icon> in <span id="label_p_waning">N</span> μήνες
+						Απώλεια ανοσίας <icon s></icon> σε <span id="label_p_waning">N</span> μήνες
 						<br>
 						<input class="sim_input" type="range" id="p_waning" min="1" max="60" step="1" value="12">
 					</div>
@@ -74,7 +74,7 @@
 						<br>
 					</span>
 					<span id="int_block_1">
-						Αποστάσεις Ασφαλείας
+						Φυσική Απόσταση
 						<br>
 						<input class="sim_input recordable" type="range" id="p_distancing" min="0" max="1" step="0.001" value="0">
 						<br>
@@ -96,7 +96,7 @@
 						<br>
 					</span>
 					<span id="int_block_4">
-						Καλοκαίρι
+						Ισχύς Καλοκαιριού
 						<br>
 						<input class="sim_input recordable" type="range" id="p_summer" min="0" max="1" step="0.001" value="0">
 						<br>
@@ -115,7 +115,7 @@
 					</span>
 
 					<span id="hospital_capacity">
-						Η χωρητικότητα ΜΕΘ στο <span id="label_p_hospital">N</span>%
+						Χωρητικότητα ΜΕΘ στο <span id="label_p_hospital">N</span>%
 						<br>
 						<input class="sim_input recordable" type="range" id="p_hospital" min="100" max="1000" step="1" value="333">
 					</span>
@@ -126,13 +126,13 @@
 
 				<div id="section_meta">
 
-					Προσομοίωση <span id="label_p_years" toFixed="1">N</span> χρόνια
+					Προσομοίωσε <span id="label_p_years" toFixed="1">N</span> χρόνια
 					<span id="section_meta_years">
 						<br>
 						<input class="sim_input" type="range" id="p_years" min="0.5" max="10" step="0.5" value="2">
 						<br>
 					</span>
-					in <span id="label_p_speed">N</span> δευτερόλεπτα
+					σε <span id="label_p_speed">N</span> δευτερόλεπτα
 					<br>
 					<input class="sim_input" type="range" id="p_speed" min="1" max="60" step="1" value="30">
 
@@ -182,7 +182,7 @@
 			<div id="legend">
 				
 				<span id="label_susceptible" class="lines">
-					<icon s></icon> Ευαίσθητοι<span id="show_percent_s"></span>
+					<icon s></icon> Ευάλωτοι<span id="show_percent_s"></span>
 					<br>
 				</span>
 				<span id="label_exposed" class="lines">
@@ -190,17 +190,17 @@
 					<br>
 				</span>
 				<span id="label_infectious" class="lines">
-					<icon i></icon> Κρούσματα<span id="show_percent_i"></span>
+					<icon i></icon> Μολυσματικοί<span id="show_percent_i"></span>
 					<br>
 				</span>
 				<span id="label_removed" class="lines">
-					<icon r></icon> Αννέρωσαν<span id="show_percent_r"></span>
+					<icon r></icon> Αναρρωμένοι<span id="show_percent_r"></span>
 				</span>
 				
 				<br class="lines">
 				
 				<span id="label_herd_immunity">
-				- - - Ανοσία της αγέλης
+				- - - Ανοσία της Αγέλης
 				</span>
 
 				<br class="lines">

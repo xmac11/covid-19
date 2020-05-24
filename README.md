@@ -1,4 +1,5 @@
-[Play it here! (English version)](https://ncase.me/covid-19/)  
+[Play it here! (English version)](https://ncase.me/covid-19)  
+[Play it here! (Greek version)](https://xmac11.github.io/covid-19/)  
 # How To Translate
 
 **NOTE: I'm still editing some stuff! Words will be finalized-ish on May 4th.
