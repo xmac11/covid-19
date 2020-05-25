@@ -40,16 +40,16 @@ and copy-paste that into the `<article></article>` part of `index.html`.
 
 Use Github Pages to put your forked translation live on the interweb!
 
-- [ ] Step 5)
+- [X] Step 5)
 
 Send a Pull Request editing *just* `<div id="translations">` in `index.html`
 to add a link to your translation from the main page.
 
-- [ ] Step 6)
+- [X] Step 6)
 
 Wait for me to get off my lazy butt & accept the Pull Request (within \~72 hours? maybe?)
 
-- [ ] Step 7)
+- [X] Step 7)
 
-- [ ] 🎉 Party! Your translation should now be linked to from the main page.
+- [X] 🎉 Party! Your translation should now be linked to from the main page.
 (Remember to close your Github Issue!)
