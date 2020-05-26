@@ -38,6 +38,8 @@
     
     **Ο οδηγός αυτός δημοσιεύτηκε την 1η Μαΐου 2020.** Πολλές λεπτομέρειες δε θα ενημερωθούν, αλλά είμαστε πεπεισμένοι πως αυτός ο οδηγός θα καλύπτει το 95% των πιθανών μελλοντικών γεγονότων, και ότι η Επιδημιολογία 101 θα παραμείνει για πάντα χρήσιμη.
 
+(Update May 15: Added citations for "1 in 20 of infected are hospitalized" and "0.5% of infected die")
+
 Επομένως, προσδεθείτε: θα έχουμε κάποιες αναταράξεις.
 
 <div class="section chapter">
@@ -247,9 +249,17 @@
 
 ###Σενάριο 0: Δεν Κάνουμε Απολύτως Τίποτα
 
-Περίπου 1 στους 20 ανθρώπους που μολύνονται από τον COVID-19 πρέπει να νοσηλευτούν σε ΜΕΘ (Μονάδα Εντατικής Θεραπείας).[^icu_covid] Σε μια πλούσια χώρα όπως οι ΗΠΑ, υπάρχει 1 κλίνη ΜΕΘ ανά 3400 ανθρώπους.[^icu_us] Επομένως, οι ΗΠΑ μπορούν να διαχειριστούν 20 από τους 3400 ανθρώπους που έχουν μολυνθεί *ταυτόχρονα* – δηλαδή το 0.6% του πλυθησμού.
+Περίπου 1 στους 20 ανθρώπους που μολύνονται από την COVID-19 πρέπει να νοσηλευτούν σε ΜΕΘ (Μονάδα Εντατικής Θεραπείας).[^icu_covid] Σε μια πλούσια χώρα όπως οι ΗΠΑ, υπάρχει 1 κλίνη ΜΕΘ ανά 3400 ανθρώπους.[^icu_us] Επομένως, οι ΗΠΑ μπορούν να διαχειριστούν 20 από τους 3400 ανθρώπους που έχουν μολυνθεί *ταυτόχρονα* – δηλαδή το 0.6% του πλυθησμού.
 
-[^icu_covid]: ["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Μεταξύ 4.9% και 11.5% *όλων* των κρουσμάτων της νόσου COVID-19 χρειάστηκαν κλίνη ΜΕΘ. Αν επιλέξουμε αισιόδοξα τη χαμηλότερη τιμή, αυτή είναι 5% ή 1 στους 20. Σημειώστε ότι αυτό το ποσοστό αφορά συγκεκριμένα την ηλικιακή κατανομή των ΗΠΑ, και θα είναι υψηλότερο σε άλλες χώρες με περισσότερους ηλικιωμένους, και αντίστοιχα χαμηλότερο σε χώρες με περισσότερους νέους.
+[^icu_covid]: **[UPDATED MAY 15]** Many of you rightly pointed out that our previous citation for "**1 in 20** need hospitalization" was based off old USA data on *confirmed* cases – which was way lower than the *real* number of cases, due to lack of tests.
+    
+    So, let's look at the country with the *most* tests per capita: Iceland. [On May 15th, 2020](https://web.archive.org/web/20200516012656/https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Iceland), they had 115 hospitalized among 1802 confirmed cases ≈ 6.4% hospitalization rate, or **1 in 16**.
+    
+    [A more recent study of COVID-19 in France](https://science.sciencemag.org/content/early/2020/05/12/science.abc3517) – using not just official confirmed cases but also antibody test data – found that “3.6% of infected individuals are hospitalized”. Or, **1 in 28.**
+    
+    Overall, there's a lot of uncertainty, but "1 in 20" is roughly close. Besides, for the rest of these simulations, we *triple* hospital capacity – so, even if "1 in 20" is three times too high, the point still stands.
+
+Παλιά παραπομπή ~~["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Μεταξύ 4.9% και 11.5% *όλων* των κρουσμάτων της νόσου COVID-19 χρειάστηκαν κλίνη ΜΕΘ. Αν επιλέξουμε αισιόδοξα τη χαμηλότερη τιμή, αυτή είναι 5% ή 1 στους 20. Σημειώστε ότι αυτό το ποσοστό αφορά συγκεκριμένα την ηλικιακή κατανομή των ΗΠΑ, και θα είναι υψηλότερο σε άλλες χώρες με περισσότερους ηλικιωμένους, και αντίστοιχα χαμηλότερο σε χώρες με περισσότερους νέους.~~
 
 [^icu_us]: “Αριθμός κλινών ΜΕΘ = 96,596”. Από το [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) Ο πληθυσμός των ΗΠΑ ήταν 328,200,000 το 2019. 96,596 από 328,200,000 = περίπου 1 in 3400. 
 
@@ -264,7 +274,9 @@
 Σε αυτό το συμπέρασμα κατέληξε [η αναφορά της 16ης Μαρτίου του κολλεγίου Imperial](http://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/): αν δεν κάνουμε τίποτα, θα ξεμείνουμε από κλίνες ΜΕΘ, με περισσότερο από το 80% του πληθυσμού να μολύνεται. 
 (θυμηθείτε: τα συνολικά κρούσματα *υπερκαλύπτουν* την ανοσία της αγέλης)
 
-Ακόμα και αν μόνο το 0.5% των νοσούντων πεθάνει – μία αισιόδοξη υπόθεση όταν δε θα υπάρχουν άλλες κλίνες ΜΕΘ – σε μια μεγάλη χώρα όπως οι ΗΠΑ, με 300 εκατομμύρια ανθρώπους, το 0.5% του 80% των 300 εκατομμυρίων = 1.2 εκατομμύρια νερκοί... *ΑΝ δεν κάναμε τίποτα.*
+Ακόμα και αν μόνο το 0.5% των νοσούντων πεθάνει[^ifr] – μία αισιόδοξη υπόθεση όταν δε θα υπάρχουν άλλες κλίνες ΜΕΘ – σε μια μεγάλη χώρα όπως οι ΗΠΑ, με 300 εκατομμύρια ανθρώπους, το 0.5% του 80% των 300 εκατομμυρίων = 1.2 εκατομμύρια νερκοί... *ΑΝ δεν κάναμε τίποτα.*
+
+[^ifr]: **[UPDATED MAY 15]** [Researchers in Indiana, USA](https://news.iu.edu/stories/2020/05/iupui/releases/13-preliminary-findings-impact-covid-19-indiana-coronavirus.html) did a random-sample test of the population, and found an infection-fatality rate (IFR) of 0.58%.
 
 (Πολλές ειδήσεις & μέσα κοινωνικής δικτύωσης ανέφεραν ότι "το 80% θα μολυνθεί" *παραλείποντας* το "ΑΝ ΔΕΝ ΚΑΝΟΥΜΕ ΤΙΠΟΤΑ". Ο φόβος διοχετεύτηκε σε κλικ ειδήσεων, και όχι στην κατανόηση της κατάστασης. *Τι να πεις...*)
 
@@ -404,7 +416,13 @@
 
 ![](pics/dp3t.png)
 
-([Eδώ (Αγγλικά)](https://ncase.me/contact-tracing/) και [εδώ (Ελληνικά)](https://github.com/DP-3T/documents/blob/master/public_engagement/cartoon/el/comic-el.pdf) είναι το πλήρες κόμικ)
+([Eδώ (Αγγλικά)](https://ncase.me/contact-tracing/) και [εδώ (Ελληνικά)](https://github.com/DP-3T/documents/blob/master/public_engagement/cartoon/el/comic-el.pdf) θα βρείτε το πλήρες κόμικ. Details about "pranking"/false positives/etc in footnote:[^dp3t_details])
+
+[^dp3t_details]: To prevent "pranking" (people falsely claiming to be infected), the DP-3T Protocol requires that the hospital first give you a One-Time Passcode that lets you upload your messages.
+    
+    False positives are a problem in both manual & digital contact tracing. Still, we can reduce false positives in 2 ways: 1) By notifying Bobs only if they heard, say, 30+ min worth of messages, not just one message in passing. And 2) If the app *does* think Bob's been exposed, it can refer Bob to a *manual* contact tracer, for an in-depth follow-up interview.
+    
+    For other issues like data bandwidth, source integrity, and other security issues, check out [the open-source DP-3T whitepapers!](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)
 
 Μαζί με παρόμοιες ομάδες όπως η[^tcn] και η MIT PACT[^pact], ενέπνευσαν την Apple και τη Google να ενσωματώσουν ανώνυμες εφαρμογές ιχνηλάτησης επαφών απευθείας σε συσκευές Android/iOS.[^gapple] (Δεν εμπιστεύεσαι την Google/Apple; Κανένα πρόβλημα! Η ομορφιά αυτού του συστήματος είναι ότι δε *χρειάζεται* εμπιστοσύνη!) Σύντομα ο οργανισμός δημόσιας υγείας της χώρας σας μπορεί να σας ζητήσει να κατεβάσετε μια κινητή εφαρμογή. Εάν είναι ανώνυμη και με δημοσίως διαθέσιμο κώδικα, σας παρακαλώ να το κάνετε!
 
@@ -416,7 +434,7 @@
 
 Τί γίνεται όμως με τους ανθρώπους χωρίς smartphones; Ή τις μεταδόσεις μέσω πόμολων; Ή τα "πραγματικά" ασυμπτωματικά κρούσματα; Οι εφαρμογές ιχνηλάτησης επαφών δεν μπορούν να εντοπίσουν όλες τις μεταδόσεις... *αλλά δεν πειράζει!* Δε χρειάζεται να εντοπίσουμε *όλες* τις μεταδόσεις, μόνο το 60%+ για να πετύχουμε R < 1.
 
-(Παραλήρημα σχετικά με τη σύγχυση ανάμεσα σε προ-συμπτωματικούς και "πραγματικά" ασυμπτωματικούς. Οι "πραγματικά" ασυμπτωματικοί είναι σπάνιοι:[^rant])
+(Παραλήρημα σχετικά με τη σύγχυση ανάμεσα σε προ-συμπτωματικούς και "πραγματικά" ασυμπτωματικούς – Οι "πραγματικά" ασυμπτωματικοί είναι σπάνιοι:[^rant])
 
 [^rant]: Πολλές ειδήσεις – και για να είμαστε ειλικρινείς, πολλές ερευνητικές εργασίες – δεν έκαναν διάκριση ανάμεσα σε "κρούσματα που δεν εμφάνισαν συμπτώματα όταν τους έγινε το τεστ" (προ-συμπτωματικά) και "κρούσματα που δεν εμφάνισαν *ποτέ* συμπτώματα" (πραγματικά ασυμπτωματικά). Ο μόνος τρόπος να τα ξεχωρίσουμε είναι να παρακολουθήσουμε πως εξελίχθηκαν μελλοντικά.
    
@@ -488,9 +506,11 @@
 
 [^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Βλέπε Πίνακα 1: ένα 100% βαμβακερό μπλουζάκι έχει περίπου τα 2/3 της αποδοτικότητας φιλτραρίσματος μιας χειρουργικής μάσκας, για τα δύο βακτηριακά αερολύματα που εξετάστηκαν.
 
+But wait – how can a simple piece of fabric block droplets in one direction, *but not the other?* The answer's counter-intuitive, yet simple:
+
 ![](pics/masks.png)
 
-Για να το δούμε και σε αριθμούς: οι χειρουργικές μάσκες που φοριούνται *από μολυσματικούς ασθενείς* μειώνουν τους ιούς κρυολογήματος και γρίπης στα αερολύματα κατά 70%.[^outgoing] Η μείωση της διασποράς τέτοιων σταγονιδιών κατά 70% θα είχε τόσο μεγάλη επίδραση όσο μια απαγόρευση κυκλοφορίας!
+Οι χειρουργικές μάσκες που φοριούνται *από μολυσματικούς ασθενείς* μειώνουν τους ιούς κρυολογήματος και γρίπης στα αερολύματα κατά 70%[^outgoing] – αυτό δυνητικά έχει τόσο μεγάλη επίδραση όσο μια απαγόρευση κυκλοφορίας!
 
 Ωστόσο, δε γνωρίζουμε με βεβαιότητα την επίδραση των μασκών στην COVID-19 *συγκεκριμένα*. Στην επιστήμη θα έπρεπε να δημοσιεύει κανείς ένα εύρημα αν είναι 95% σίγουρος. (...θα έπρεπε.[^replication]) Όσον αφορά τις μάσκες, τουλάχιστον μέχρι την 1η Μαΐου 2020, είμαστε λιγότερο από "95% σίγουροι".
 
@@ -524,9 +544,11 @@
 
 Εντάξει, αυτή δεν είναι μια "παρέμβαση" που μπορούμε να ελέγξουμε, αλλά θα βοηθήσει! Ορισμένα ειδησεογραφικά πρακτορεία αναφέρουν ότι το καλοκαίρι δε θα επηρεάσει καθόλου την COVID-19. Έχουν δίκιο κατά το ήμισυ: το καλοκαίρι δε θα φέρει R < 1, αλλά *θα μειώσει* το R.
 
-Για την COVID-19, κάθε 1° Κελσίου επιπλέον (1.8° Φαρενάιτ) μειώνει το R κατά 1.2%.[^heat] Η διαφορά θερμοκρασίας καλοκαιριού-χειμώνα στη Νέα Υόρκη είναι 26°C (47°F), επομένως το καλοκαίρι θα μειώσει το R κατά ~31%.
+Για την COVID-19, κάθε 1° Κελσίου επιπλέον (1.8° Φαρενάιτ) μειώνει το R κατά 1.2%.[^heat] Η διαφορά θερμοκρασίας καλοκαιριού-χειμώνα στη Νέα Υόρκη είναι 26°C (47°F),[^nyc_heat] επομένως το καλοκαίρι θα μειώσει το R κατά ~31%.
 
 [^heat]: “Αύξηση θερμοκρασίας 1° Κελσίου [...] μειώνει το R κατά 0.0225” και “Η μέση τιμή του R αυτών των 100 πόλεων είναι 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
+
+[^nyc_heat]: In 2019 at Central Park, hottest month (July) was 79.6°F, coldest month (Jan) was 32.5°F. Difference is 47.1°F, or ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
