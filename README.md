@@ -23,18 +23,18 @@ If your language hasn't been done yet, check Github Issues to see if someone's a
 **If not:** fork this repo & link to your fork in a new Github Issue,
 announcing that you're translating for that language!
 
-- [ ] Step 3)
+- [X] Step 3)
 
 - [X] Translate `words.md`, (6000 words) then export it to html– make sure your Markdown app supports footnotes –
 and copy-paste that into the `<article></article>` part of `index.html`.
 
-- [ ] Translate the `<head>`, sidebars, & footer of `index.html` (200 words)
+- [X] Translate the `<head>`, sidebars, & footer of `index.html` (200 words)
 
-- [ ] Translate the images in `/pics` (800 words)
+- [X] Translate the images in `/pics` (800 words)
 
 - [X] Translate `sim/index.html` (100 words)
 
-- [ ] Translate the thumbnail `sharing/thumbnail.png`
+- [X] Translate the thumbnail `sharing/thumbnail.png`
 
 - [X] Step 4)
 
