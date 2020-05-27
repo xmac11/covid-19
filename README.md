@@ -2,15 +2,6 @@
 [Play it here! (Greek version)](https://xmac11.github.io/covid-19/)  
 # How To Translate
 
-**NOTE: I'm still editing some stuff! Words will be finalized-ish on May 4th.
-You can start on stuff below, then check for new commits on the 4th to see what else to
-translate. You're wonderful, thank you! 💖**
-
-**NOTE 2: Sorry these instructions are really sloppy. Am writing this at midnight, rushing
-to publish this.**
-
-**NOTE 3: Indie gamedev is horrible.**
-
 - [X] Step 1)
 
 - [X] Check to see if it's already been translated to your language!
