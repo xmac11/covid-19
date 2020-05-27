@@ -1,5 +1,11 @@
 [Play it here! (English version)](https://ncase.me/covid-19)  
-[Play it here! (Greek version)](https://xmac11.github.io/covid-19/)  
+[Play it here! (Greek version)](https://xmac11.github.io/covid-19/)
+
+# Πώς να συνεισφέρετε στην Ελληνική μετάφραση
+Μπορείτε να προτείνετε βελτιώσεις/διορθώσεις στη μετάφραση με 2 τρόπους:  
+1. Ανοίξτε ένα [Issue](https://github.com/xmac11/covid-19/issues) στο οποίο αναφέρετε τη μετάφραση όπως είναι αυτή τη στιγμή, και στη συνέχεια τη μετάφραση που προτείνετε εσείς.
+2. Κάντε fork το παρόν repo, κάντε τις αλλαγές που επιθυμείτε στο αρχείο [`words.md`](https://github.com/xmac11/covid-19/blob/master/words/words.md), και ανοίξτε ένα Pull Request για να ενσωματωθούν στο κυρίως κείμενο.
+
 # How To Translate
 
 - [X] Step 1)
