@@ -38,7 +38,7 @@
     
     **Ο οδηγός αυτός δημοσιεύτηκε την 1η Μαΐου 2020.** Πολλές λεπτομέρειες δε θα ενημερωθούν, αλλά είμαστε πεπεισμένοι πως αυτός ο οδηγός θα καλύπτει το 95% των πιθανών μελλοντικών γεγονότων, και ότι η Επιδημιολογία 101 θα παραμείνει για πάντα χρήσιμη.
 
-(Update May 15: Added citations for "1 in 20 of infected are hospitalized" and "0.5% of infected die")
+	(Ενημέρωση 15ης Μαΐου: Προστέθηκαν παραπομπές για το "1 στους 20 μολυσμένους νοσηλεύονται" και "0.5% των νοσούντων πεθαίνει")
 
 Επομένως, προσδεθείτε: θα έχουμε κάποιες αναταράξεις.
 
@@ -251,15 +251,15 @@
 
 Περίπου 1 στους 20 ανθρώπους που μολύνονται από την COVID-19 πρέπει να νοσηλευτούν σε ΜΕΘ (Μονάδα Εντατικής Θεραπείας).[^icu_covid] Σε μια πλούσια χώρα όπως οι ΗΠΑ, υπάρχει 1 κλίνη ΜΕΘ ανά 3400 ανθρώπους.[^icu_us] Επομένως, οι ΗΠΑ μπορούν να φροντίσουν 20 από τους 3400 ανθρώπους που έχουν μολυνθεί *ταυτόχρονα* – δηλαδή το 0.6% του πλυθησμού.
 
-[^icu_covid]: **[UPDATED MAY 15]** Many of you rightly pointed out that our previous citation for "**1 in 20** need hospitalization" was based off old USA data on *confirmed* cases – which was way lower than the *real* number of cases, due to lack of tests.
+[^icu_covid]: **[ΕΝΗΜΕΡΩΣΗ 15ης ΜΑΪΟΥ]** Πολλοί από εσάς σωστά επισημάνατε ότι η προηγούμενη παραπομπή μας για το ότι "**1 στους 20** χρειάζεται νοσηλεία" βασιζόταν σε παλιά δεδομένα των ΗΠΑ σχετικά με τα *επιβεβαιωμένα* κρούσματα – τα οποία, λόγω έλλειψης τεστ, ήταν πολύ λιγότερα απ’ τον *πραγματικό* αριθμό των κρουσμάτων.
     
-    So, let's look at the country with the *most* tests per capita: Iceland. [On May 15th, 2020](https://web.archive.org/web/20200516012656/https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Iceland), they had 115 hospitalized among 1802 confirmed cases ≈ 6.4% hospitalization rate, or **1 in 16**.
+    Οπότε ας δούμε τη χώρα με τα *περισσότερα* τεστ κατά κεφαλή: την Ισλανδία. [Στις 15 Μαΐου 2020](https://web.archive.org/web/20200516012656/https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Iceland), είχαν 115 νοσηλευόμενους από 1802 επιβεβαιωμένα κρούσματα ≈ 6.4% ποσοστό νοσηλείας, ή **1 στους 16**.
     
-    [A more recent study of COVID-19 in France](https://science.sciencemag.org/content/early/2020/05/12/science.abc3517) – using not just official confirmed cases but also antibody test data – found that “3.6% of infected individuals are hospitalized”. Or, **1 in 28.**
+    [Μια πιο πρόσφατη έρευνα στη Γαλλία](https://science.sciencemag.org/content/early/2020/05/12/science.abc3517) – χρησιμοποιώντας όχι μόνο τα επίσημα επιβεβαιωμένα κρούσματα, αλλά επίσης δεδομένα από τεστ αντισωμάτων – ανακάλυψε ότι “το 3.6% των μολυσμένων νοσηλεύεται”. Ή, **1 στους 28.**
     
-    Overall, there's a lot of uncertainty, but "1 in 20" is roughly close. Besides, for the rest of these simulations, we *triple* hospital capacity – so, even if "1 in 20" is three times too high, the point still stands.
+    Γενικά, υπάρχει μεγάλη αβεβαιότητα, αλλά το "1 στους 20" είναι σχετικά κοντά. Εξάλλου, για τις υπόλοιπες προσομοιώσεις, *τριπλασιάσαμε* τη χωρητικότητα των ΜΕΘ – οπότε ακόμα κι αν το "1 στους 20" είναι κατά τρεις φορές μεγαλύτερο απ’ το πραγματικό, το επιχείρημα εξακολουθεί να στέκει.
 
-Παλιά παραπομπή ~~["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Μεταξύ 4.9% και 11.5% *όλων* των κρουσμάτων της νόσου COVID-19 χρειάστηκαν κλίνη ΜΕΘ. Αν επιλέξουμε αισιόδοξα τη χαμηλότερη τιμή, αυτή είναι 5% ή 1 στους 20. Σημειώστε ότι αυτό το ποσοστό αφορά συγκεκριμένα την ηλικιακή κατανομή των ΗΠΑ, και θα είναι υψηλότερο σε άλλες χώρες με περισσότερους ηλικιωμένους, και αντίστοιχα χαμηλότερο σε χώρες με περισσότερους νέους.~~
+	Παλιά παραπομπή: <del>["Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group"](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Μεταξύ 4.9% και 11.5% *όλων* των κρουσμάτων της νόσου COVID-19 χρειάστηκαν κλίνη ΜΕΘ. Αν επιλέξουμε αισιόδοξα τη χαμηλότερη τιμή, αυτή είναι 5% ή 1 στους 20. Σημειώστε ότι αυτό το ποσοστό αφορά συγκεκριμένα την ηλικιακή κατανομή των ΗΠΑ, και θα είναι υψηλότερο σε άλλες χώρες με περισσότερους ηλικιωμένους, και αντίστοιχα χαμηλότερο σε χώρες με περισσότερους νέους.</del>
 
 [^icu_us]: “Αριθμός κλινών ΜΕΘ = 96,596”. Από το [the Society of Critical Care Medicine](https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) Ο πληθυσμός των ΗΠΑ ήταν 328,200,000 το 2019. 96,596 από 328,200,000 = περίπου 1 in 3400. 
 
