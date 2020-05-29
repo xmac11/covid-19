@@ -255,7 +255,7 @@
     
     Οπότε ας δούμε τη χώρα με τα *περισσότερα* τεστ κατά κεφαλή: την Ισλανδία. [Στις 15 Μαΐου 2020](https://web.archive.org/web/20200516012656/https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Iceland), είχαν 115 νοσηλευόμενους από 1802 επιβεβαιωμένα κρούσματα ≈ 6.4% ποσοστό νοσηλείας, ή **1 στους 16**.
     
-    [Μια πιο πρόσφατη έρευνα στη Γαλλία](https://science.sciencemag.org/content/early/2020/05/12/science.abc3517) – χρησιμοποιώντας όχι μόνο τα επίσημα επιβεβαιωμένα κρούσματα, αλλά επίσης δεδομένα από τεστ αντισωμάτων – ανακάλυψε ότι “το 3.6% των μολυσμένων νοσηλεύεται”. Ή, **1 στους 28.**
+    [Μια πιο πρόσφατη έρευνα στη Γαλλία](https://science.sciencemag.org/content/early/2020/05/12/science.abc3517) – χρησιμοποιώντας όχι μόνο τα επίσημα επιβεβαιωμένα κρούσματα, αλλά επίσης δεδομένα από τεστ αντισωμάτων – έδειξε ότι “το 3.6% των μολυσμένων νοσηλεύεται”. Ή, **1 στους 28.**
     
     Γενικά, υπάρχει μεγάλη αβεβαιότητα, αλλά το "1 στους 20" είναι σχετικά κοντά. Εξάλλου, για τις υπόλοιπες προσομοιώσεις, *τριπλασιάσαμε* τη χωρητικότητα των ΜΕΘ – οπότε ακόμα κι αν το "1 στους 20" είναι κατά τρεις φορές μεγαλύτερο απ’ το πραγματικό, το επιχείρημα εξακολουθεί να στέκει.
 
@@ -276,7 +276,7 @@
 
 Ακόμα και αν μόνο το 0.5% των νοσούντων πεθάνει[^ifr] – μία αισιόδοξη υπόθεση όταν δε θα υπάρχουν άλλες κλίνες ΜΕΘ – σε μια μεγάλη χώρα όπως οι ΗΠΑ, με 300 εκατομμύρια ανθρώπους, το 0.5% του 80% των 300 εκατομμυρίων = 1.2 εκατομμύρια νερκοί... *ΑΝ δεν κάναμε τίποτα.*
 
-[^ifr]: **[UPDATED MAY 15]** [Researchers in Indiana, USA](https://news.iu.edu/stories/2020/05/iupui/releases/13-preliminary-findings-impact-covid-19-indiana-coronavirus.html) did a random-sample test of the population, and found an infection-fatality rate (IFR) of 0.58%.
+[^ifr]: **[ΕΝΗΜΕΡΩΣΗ 15ης ΜΑΪΟΥ]** [Ερευνητές στην Ιντιάνα, ΗΠΑ](https://news.iu.edu/stories/2020/05/iupui/releases/13-preliminary-findings-impact-covid-19-indiana-coronavirus.html) πραγματοποίησαν δειγματοληπτικούς ελέγχους στον πληθυσμό και βρήκαν ποσοστό θνησιμότητας (infection-fatality rate, IFR) 0.58%.
 
 (Πολλές ειδήσεις & μέσα κοινωνικής δικτύωσης ανέφεραν ότι "το 80% θα μολυνθεί" *παραλείποντας* το "ΑΝ ΔΕΝ ΚΑΝΟΥΜΕ ΤΙΠΟΤΑ". Ο φόβος διοχετεύτηκε στο κλικ ειδήσεων, και όχι στην κατανόηση της κατάστασης. *Τι να πεις...*)
 
@@ -416,13 +416,13 @@
 
 ![](pics/dp3t.png)
 
-([Eδώ (Αγγλικά)](https://ncase.me/contact-tracing/) και [εδώ (Ελληνικά)](https://github.com/DP-3T/documents/blob/master/public_engagement/cartoon/el/comic-el.pdf) θα βρείτε το πλήρες κόμικ. Details about "pranking"/false positives/etc in footnote:[^dp3t_details])
+([Eδώ (Αγγλικά)](https://ncase.me/contact-tracing/) και [εδώ (Ελληνικά)](https://github.com/DP-3T/documents/blob/master/public_engagement/cartoon/el/comic-el.pdf) θα βρείτε το πλήρες κόμικ. Λεπτομέρειες σχετικά με "φάρσες"/ψευδώς θετικά/κ.τ.λ. στην υποσημείωση:[^dp3t_details])
 
-[^dp3t_details]: To prevent "pranking" (people falsely claiming to be infected), the DP-3T Protocol requires that the hospital first give you a One-Time Passcode that lets you upload your messages.
+[^dp3t_details]: Για να αποφευχθούν οι "φάρσες" (άνθρωποι που ισχυρίζονται ψευδώς ότι έχουν μολυνθεί), το Πρωτόκολλο DP-3T απαιτεί από το νοσοκομείο να σας δώσει πρώτα έναν κωδικό μιας χρήσης (One-Time Passcode), ο οποίος σας επιτρέπει να ανεβάσετε τα μηνύματά σας.
     
-    False positives are a problem in both manual & digital contact tracing. Still, we can reduce false positives in 2 ways: 1) By notifying Bobs only if they heard, say, 30+ min worth of messages, not just one message in passing. And 2) If the app *does* think Bob's been exposed, it can refer Bob to a *manual* contact tracer, for an in-depth follow-up interview.
+    Τα ψευδώς θετικά αποτελέσματα αποτελούν πρόβλημα τόσο στην χειροκίνητη  όσο και στην ψηφιακή ιχνηλάτηση επαφών. Ωστόσο, μπορούμε να μειώσουμε τα ψευδώς θετικά με 2 τρόπους: 1) Ειδοποιώντας το Βασίλη μόνο αν άκουσε, ας πούμε, μηνύματα διάρκειας 30+ λεπτών, όχι απλά με το άκουσμα ενός μηνύματος. Και 2) Αν η εφαρμογή *όντως* θεωρεί ότι ο Βασίλης έχει εκτεθεί, μπορεί να παραπέμψει τον σε κάποιον αρμόδιο, για μια πιο αναλυτική συνέντευξη.
     
-    For other issues like data bandwidth, source integrity, and other security issues, check out [the open-source DP-3T whitepapers!](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)
+    Για άλλα ζητήματα, όπως το εύρος ζώνης δεδομένων, ακεραιότητα αποστολέα, και άλλα ζητήματα ηλεκτρονικής ασφάλειας, δείτε [τις αναφορές της DP-3T!](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)
 
 Μαζί με παρόμοιες ομάδες όπως η TCN Protocol[^tcn] και η MIT PACT[^pact], ενέπνευσαν την Apple και τη Google να ενσωματώσουν ανώνυμες εφαρμογές ιχνηλάτησης επαφών απευθείας σε συσκευές Android/iOS.[^gapple] (Δεν εμπιστεύεσαι την Google/Apple; Κανένα πρόβλημα! Η ομορφιά αυτού του συστήματος είναι ότι δε *χρειάζεται* εμπιστοσύνη!) Σύντομα ο οργανισμός δημόσιας υγείας της χώρας σας μπορεί να σας ζητήσει να κατεβάσετε μια κινητή εφαρμογή. Εάν είναι ανώνυμη και με δημοσίως διαθέσιμο κώδικα, σας παρακαλούμε να το κάνετε!
 
@@ -506,7 +506,7 @@
 
 [^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Βλέπε Πίνακα 1: ένα 100% βαμβακερό μπλουζάκι έχει περίπου τα 2/3 της αποδοτικότητας φιλτραρίσματος μιας χειρουργικής μάσκας, για τα δύο βακτηριακά αερολύματα που εξετάστηκαν.
 
-But wait – how can a simple piece of fabric block droplets in one direction, *but not the other?* The answer's counter-intuitive, yet simple:
+Αλλά μισό λεπτό – πώς μπορεί ένα απλό κομμάτι υφάσματος να σταματήσει τα σταγονίδια στη μια κατεύθυνση, *αλλά όχι στην άλλη;* Η απάντηση ίσως αντιβαίνει τη λογική μας, αλλά είναι απλή:
 
 ![](pics/masks.png)
 
@@ -548,7 +548,7 @@ But wait – how can a simple piece of fabric block droplets in one direction, *
 
 [^heat]: “Αύξηση θερμοκρασίας 1° Κελσίου [...] μειώνει το R κατά 0.0225” και “Η μέση τιμή του R αυτών των 100 πόλεων είναι 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
-[^nyc_heat]: In 2019 at Central Park, hottest month (July) was 79.6°F, coldest month (Jan) was 32.5°F. Difference is 47.1°F, or ~26°C. [PDF from Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)
+[^nyc_heat]: Το 2019, στο Σέντραλ Παρκ της Νέας Υόρκης, ο πιο ζεστός μήνας (Ιούλιος) είχε 79.6°F, και ο πιο κρύος μήνας (Ιανουάριος) είχε 32.5°F. Η διαφορά είναι 47.1°F, ή ~26°C. [PDF απ’ το Weather.gov](https://www.weather.gov/media/okx/Climate/CentralPark/monthlyannualtemp.pdf)
 
 <div class="sim">
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
