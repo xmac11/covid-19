@@ -19,6 +19,10 @@
 			<a href="https://ncase.me/">Nicky Case</a>
 			(σκίτσα/κώδικας)
 		</div>
+		<div style="font-weight: 100;top: 220px;left: 10px;font-size: 14px;line-height: 21px;">
+			Μετάφραση:
+			<a href="https://www.linkedin.com/in/xmac11">Charalampos Makrylakis</a>, με συνεισφορές του <a href="https://github.com/estamos">Evangelos Stamos</a> 
+		</div>
 	</div>
 </div>
 
